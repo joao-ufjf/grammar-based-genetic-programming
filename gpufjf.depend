@@ -1,0 +1,5181 @@
+# depslib dependency file v1.0
+1502464690 source:/home/joao/2017/pgde/repo/id-ggp/PGDE/inc/DifferencialEvolution.cpp
+	"DifferencialEvolution.h"
+
+1497644258 /home/joao/2017/pgde/repo/id-ggp/PGDE/inc/DifferencialEvolution.h
+	<cmath>
+	"vector"
+	<time.h>
+	<ctime>
+	<iostream>
+	<fstream>
+	<algorithm>
+	"RK4LSIndividuo.h"
+	"Parser.h"
+	"SimpleIndividuo.h"
+
+1497644258 /home/joao/2017/pgde/repo/id-ggp/PGDE/inc/RK4LSIndividuo.h
+	"Subject.h"
+
+1497893672 /home/joao/2017/pgde/repo/id-ggp/PGDE/src/Subject.h
+	<iostream>
+	<vector>
+	"Tree.h"
+	<string>
+
+1502463066 /home/joao/2017/pgde/repo/id-ggp/PGDE/src/Tree.h
+	"No.h"
+	"Configures.h"
+	<iostream>
+	<vector>
+	<tuple>
+
+1497645947 /home/joao/2017/pgde/repo/id-ggp/PGDE/src/No.h
+	<iostream>
+	<string>
+	<vector>
+	<sstream>
+
+1501525244 /home/joao/2017/pgde/repo/id-ggp/PGDE/src/Configures.h
+	<stdlib.h>
+	<time.h>
+	<omp.h>
+	"Grammar.h"
+
+1497646960 /home/joao/2017/pgde/repo/id-ggp/PGDE/src/Grammar.h
+	<tuple>
+	<vector>
+	<string>
+	<sstream>
+	<fstream>
+	<algorithm>
+	"Database.h"
+	"No.h"
+	"Configures.h"
+
+1497644258 /home/joao/2017/pgde/repo/id-ggp/PGDE/src/Database.h
+	<iostream>
+	<cstring>
+	<fstream>
+	<vector>
+	<cmath>
+	"Configures.h"
+
+1497644258 /home/joao/2017/pgde/repo/id-ggp/PGDE/src/Parser.h
+	"Configures.h"
+	"Subject.h"
+	<string>
+
+1499364148 /home/joao/2017/pgde/repo/id-ggp/PGDE/src/SimpleIndividuo.h
+	"Subject.h"
+
+1497644258 source:/home/joao/2017/pgde/repo/id-ggp/PGDE/inc/LeastSquareIndividuo.cpp
+	"LeastSquareIndividuo.h"
+	"Tree.h"
+
+1497644258 /home/joao/2017/pgde/repo/id-ggp/PGDE/inc/LeastSquareIndividuo.h
+	"Subject.h"
+
+1497644258 source:/home/joao/2017/pgde/repo/id-ggp/PGDE/inc/LeastSquareIndividuoBuilder.cpp
+	"LeastSquareIndividuoBuilder.h"
+
+1497644258 /home/joao/2017/pgde/repo/id-ggp/PGDE/inc/LeastSquareIndividuoBuilder.h
+	"IndividuoBuilder.h"
+	"LeastSquareIndividuo.h"
+
+1497644258 /home/joao/2017/pgde/repo/id-ggp/PGDE/src/IndividuoBuilder.h
+	"Subject.h"
+	<string>
+
+1497644258 source:/home/joao/2017/pgde/repo/id-ggp/PGDE/inc/LeastSquareParser.cpp
+	"LeastSquareParser.h"
+
+1497644258 /home/joao/2017/pgde/repo/id-ggp/PGDE/inc/LeastSquareParser.h
+	"Configures.h"
+	"Parser.h"
+	"../inc/QRDecomposition.h"
+	<vector>
+	<stack>
+	<tuple>
+	<cmath>
+	"SimpleParser.h"
+	"LeastSquareIndividuo.h"
+
+1497644258 /home/joao/2017/pgde/repo/id-ggp/PGDE/inc/QRDecomposition.h
+
+1497644258 /home/joao/2017/pgde/repo/id-ggp/PGDE/src/SimpleParser.h
+	"Configures.h"
+	"Parser.h"
+	"SimpleIndividuo.h"
+	"DifferencialEvolution.h"
+	<vector>
+	<stack>
+	<tuple>
+	<cmath>
+
+1497644258 source:/home/joao/2017/pgde/repo/id-ggp/PGDE/inc/LSDerivadasParser.cpp
+	"LSDerivadasParser.h"
+
+1497644258 /home/joao/2017/pgde/repo/id-ggp/PGDE/inc/LSDerivadasParser.h
+	"Configures.h"
+	"Parser.h"
+	"QRDecomposition.h"
+	<vector>
+	<stack>
+	<tuple>
+	<cmath>
+	"LeastSquareIndividuo.h"
+	"SimpleParser.h"
+
+1497644258 source:/home/joao/2017/pgde/repo/id-ggp/PGDE/inc/ParserDerivadas.cpp
+	"ParserDerivadas.h"
+
+1497644258 /home/joao/2017/pgde/repo/id-ggp/PGDE/inc/ParserDerivadas.h
+	"Configures.h"
+	"Parser.h"
+	<vector>
+	<stack>
+	<tuple>
+	<cmath>
+	"SimpleParser.h"
+
+1497644258 source:/home/joao/2017/pgde/repo/id-ggp/PGDE/inc/QRDecomposition.cpp
+	"QRDecomposition.h"
+	<cmath>
+	<stdlib.h>
+	<string.h>
+	<iostream>
+	<memory.h>
+
+1497644258 source:/home/joao/2017/pgde/repo/id-ggp/PGDE/inc/RK4AGParser.cpp
+	"RK4AGParser.h"
+
+1497644258 /home/joao/2017/pgde/repo/id-ggp/PGDE/inc/RK4AGParser.h
+	"SimpleParser.h"
+	"RK4LSIndividuo.h"
+
+1497644258 source:/home/joao/2017/pgde/repo/id-ggp/PGDE/inc/RK4LSDerivadasParser.cpp
+	"RK4LSDerivadasParser.h"
+
+1497644258 /home/joao/2017/pgde/repo/id-ggp/PGDE/inc/RK4LSDerivadasParser.h
+	"Configures.h"
+	"Parser.h"
+	"QRDecomposition.h"
+	<vector>
+	<stack>
+	<tuple>
+	<cmath>
+	"RK4LSIndividuo.h"
+	"SimpleParser.h"
+
+1497644258 source:/home/joao/2017/pgde/repo/id-ggp/PGDE/inc/RK4LSDParser.cpp
+	"RK4LSDParser.h"
+
+1497644258 /home/joao/2017/pgde/repo/id-ggp/PGDE/inc/RK4LSDParser.h
+	"SimpleParser.h"
+	"RK4LSIndividuo.h"
+	"LeastSquareIndividuo.h"
+	"QRDecomposition.h"
+
+1497644258 source:/home/joao/2017/pgde/repo/id-ggp/PGDE/inc/RK4LSIndividuo.cpp
+	"RK4LSIndividuo.h"
+
+1497644258 source:/home/joao/2017/pgde/repo/id-ggp/PGDE/inc/RK4LSIndividuoBuilder.cpp
+	"RK4LSIndividuoBuilder.h"
+
+1497644258 /home/joao/2017/pgde/repo/id-ggp/PGDE/inc/RK4LSIndividuoBuilder.h
+	"IndividuoBuilder.h"
+	"RK4LSIndividuo.h"
+
+1497644258 source:/home/joao/2017/pgde/repo/id-ggp/PGDE/inc/RK4sParser.cpp
+	"RK4sParser.h"
+
+1497644258 /home/joao/2017/pgde/repo/id-ggp/PGDE/inc/RK4sParser.h
+	"SimpleParser.h"
+	"RK4LSIndividuo.h"
+	"DifferencialEvolution.h"
+
+1497644258 source:/home/joao/2017/pgde/repo/id-ggp/PGDE/src/Configures.cpp
+	"Configures.h"
+
+1497644258 source:/home/joao/2017/pgde/repo/id-ggp/PGDE/src/Crossover.cpp
+	"Crossover.h"
+
+1497644258 /home/joao/2017/pgde/repo/id-ggp/PGDE/src/Crossover.h
+	"Subject.h"
+
+1497644258 source:/home/joao/2017/pgde/repo/id-ggp/PGDE/src/Database.cpp
+	"Database.h"
+
+1498499960 source:/home/joao/2017/pgde/repo/id-ggp/PGDE/src/Grammar.cpp
+	"Grammar.h"
+	"Configures.h"
+
+1497644258 source:/home/joao/2017/pgde/repo/id-ggp/PGDE/src/IndividuoBuilder.cpp
+	"IndividuoBuilder.h"
+
+1502803650 source:/home/joao/2017/pgde/repo/id-ggp/PGDE/src/main.cpp
+	<iostream>
+	"Database.h"
+	"Grammar.h"
+	"No.h"
+	"Configures.h"
+	"Search.h"
+	"Configures.h"
+	"SimpleParser.h"
+	"../inc/ParserDerivadas.h"
+	"../inc/LeastSquareParser.h"
+	"../inc/LSDerivadasParser.h"
+	"IndividuoBuilder.h"
+	"LeastSquareIndividuoBuilder.h"
+	"../inc/RK4LSDerivadasParser.h"
+	"../inc/RK4LSIndividuoBuilder.h"
+	"Subject.h"
+	"RK4sParser.h"
+	"../inc/RK4AGParser.h"
+	"RK4LSDParser.h"
+	<sstream>
+
+1502459733 /home/joao/2017/pgde/repo/id-ggp/PGDE/src/Search.h
+	"Subject.h"
+	"Grammar.h"
+	"Tree.h"
+	"Configures.h"
+	"Parser.h"
+	"SimpleParser.h"
+	<cmath>
+	<algorithm>
+	<exception>
+	"Selection.h"
+	"TournamentSelection.h"
+	"PopulationReplacement.h"
+	"SimpleReplace.h"
+	"IndividuoBuilder.h"
+	"SimpleIndividuoBuilder.h"
+	"DifferencialEvolution.h"
+	"Mutation.h"
+	"SimpleMutation.h"
+	"Crossover.h"
+	"SimpleCrossover.h"
+	<omp.h>
+
+1497644258 /home/joao/2017/pgde/repo/id-ggp/PGDE/src/Selection.h
+	"Subject.h"
+
+1497644258 /home/joao/2017/pgde/repo/id-ggp/PGDE/src/TournamentSelection.h
+	"Selection.h"
+	"Subject.h"
+
+1497644258 /home/joao/2017/pgde/repo/id-ggp/PGDE/src/PopulationReplacement.h
+	"Subject.h"
+
+1497644258 /home/joao/2017/pgde/repo/id-ggp/PGDE/src/SimpleReplace.h
+	"Subject.h"
+	"PopulationReplacement.h"
+	"Configures.h"
+	<iostream>
+	<algorithm>
+
+1497644258 /home/joao/2017/pgde/repo/id-ggp/PGDE/src/SimpleIndividuoBuilder.h
+	"IndividuoBuilder.h"
+	"SimpleIndividuo.h"
+
+1497644258 /home/joao/2017/pgde/repo/id-ggp/PGDE/src/Mutation.h
+	"Subject.h"
+
+1497644258 /home/joao/2017/pgde/repo/id-ggp/PGDE/src/SimpleMutation.h
+	"Mutation.h"
+
+1497644258 /home/joao/2017/pgde/repo/id-ggp/PGDE/src/SimpleCrossover.h
+	"Crossover.h"
+
+1497644258 source:/home/joao/2017/pgde/repo/id-ggp/PGDE/src/Mutation.cpp
+	"Mutation.h"
+
+1497645941 source:/home/joao/2017/pgde/repo/id-ggp/PGDE/src/No.cpp
+	"No.h"
+	<iostream>
+	<string>
+
+1497644258 source:/home/joao/2017/pgde/repo/id-ggp/PGDE/src/Parser.cpp
+
+1497644258 source:/home/joao/2017/pgde/repo/id-ggp/PGDE/src/PopulationReplacement.cpp
+	"PopulationReplacement.h"
+
+1502803883 source:/home/joao/2017/pgde/repo/id-ggp/PGDE/src/Search.cpp
+	"Search.h"
+
+1497644258 source:/home/joao/2017/pgde/repo/id-ggp/PGDE/src/Selection.cpp
+	"Selection.h"
+
+1497644258 source:/home/joao/2017/pgde/repo/id-ggp/PGDE/src/SimpleCrossover.cpp
+	"SimpleCrossover.h"
+
+1497646709 source:/home/joao/2017/pgde/repo/id-ggp/PGDE/src/SimpleIndividuo.cpp
+	"SimpleIndividuo.h"
+
+1497644258 source:/home/joao/2017/pgde/repo/id-ggp/PGDE/src/SimpleIndividuoBuilder.cpp
+	"SimpleIndividuoBuilder.h"
+
+1497644258 source:/home/joao/2017/pgde/repo/id-ggp/PGDE/src/SimpleMutation.cpp
+	"SimpleMutation.h"
+
+1501172781 source:/home/joao/2017/pgde/repo/id-ggp/PGDE/src/SimpleParser.cpp
+	"SimpleParser.h"
+
+1497894497 source:/home/joao/2017/pgde/repo/id-ggp/PGDE/src/SimpleReplace.cpp
+	"SimpleReplace.h"
+
+1502314126 source:/home/joao/2017/pgde/repo/id-ggp/PGDE/src/Subject.cpp
+	"Subject.h"
+
+1497644258 source:/home/joao/2017/pgde/repo/id-ggp/PGDE/src/TournamentSelection.cpp
+	"TournamentSelection.h"
+
+1502464280 source:/home/joao/2017/pgde/repo/id-ggp/PGDE/src/Tree.cpp
+	"Tree.h"
+
+1509971668 source:/home/inteligenciacomputacional/Downloads/PGDE/inc/DifferencialEvolution.cpp
+	"DifferencialEvolution.h"
+
+1502837339 /home/inteligenciacomputacional/Downloads/PGDE/inc/DifferencialEvolution.h
+	<cmath>
+	"vector"
+	<time.h>
+	<ctime>
+	<iostream>
+	<fstream>
+	<algorithm>
+	"RK4LSIndividuo.h"
+	"Parser.h"
+	"SimpleIndividuo.h"
+
+1497644258 /home/inteligenciacomputacional/Downloads/PGDE/inc/RK4LSIndividuo.h
+	"Subject.h"
+
+1497893672 /home/inteligenciacomputacional/Downloads/PGDE/src/Subject.h
+	<iostream>
+	<vector>
+	"Tree.h"
+	<string>
+
+1502463066 /home/inteligenciacomputacional/Downloads/PGDE/src/Tree.h
+	"No.h"
+	"Configures.h"
+	<iostream>
+	<vector>
+	<tuple>
+
+1497645947 /home/inteligenciacomputacional/Downloads/PGDE/src/No.h
+	<iostream>
+	<string>
+	<vector>
+	<sstream>
+
+1501525244 /home/inteligenciacomputacional/Downloads/PGDE/src/Configures.h
+	<stdlib.h>
+	<time.h>
+	<omp.h>
+	"Grammar.h"
+
+1497646960 /home/inteligenciacomputacional/Downloads/PGDE/src/Grammar.h
+	<tuple>
+	<vector>
+	<string>
+	<sstream>
+	<fstream>
+	<algorithm>
+	"Database.h"
+	"No.h"
+	"Configures.h"
+
+1497644258 /home/inteligenciacomputacional/Downloads/PGDE/src/Database.h
+	<iostream>
+	<cstring>
+	<fstream>
+	<vector>
+	<cmath>
+	"Configures.h"
+
+1497644258 /home/inteligenciacomputacional/Downloads/PGDE/src/Parser.h
+	"Configures.h"
+	"Subject.h"
+	<string>
+
+1499364148 /home/inteligenciacomputacional/Downloads/PGDE/src/SimpleIndividuo.h
+	"Subject.h"
+
+1497644258 source:/home/inteligenciacomputacional/Downloads/PGDE/inc/LeastSquareIndividuo.cpp
+	"LeastSquareIndividuo.h"
+	"Tree.h"
+
+1497644258 /home/inteligenciacomputacional/Downloads/PGDE/inc/LeastSquareIndividuo.h
+	"Subject.h"
+
+1497644258 source:/home/inteligenciacomputacional/Downloads/PGDE/inc/LeastSquareIndividuoBuilder.cpp
+	"LeastSquareIndividuoBuilder.h"
+
+1497644258 /home/inteligenciacomputacional/Downloads/PGDE/inc/LeastSquareIndividuoBuilder.h
+	"IndividuoBuilder.h"
+	"LeastSquareIndividuo.h"
+
+1497644258 /home/inteligenciacomputacional/Downloads/PGDE/src/IndividuoBuilder.h
+	"Subject.h"
+	<string>
+
+1497644258 source:/home/inteligenciacomputacional/Downloads/PGDE/inc/LeastSquareParser.cpp
+	"LeastSquareParser.h"
+
+1497644258 /home/inteligenciacomputacional/Downloads/PGDE/inc/LeastSquareParser.h
+	"Configures.h"
+	"Parser.h"
+	"../inc/QRDecomposition.h"
+	<vector>
+	<stack>
+	<tuple>
+	<cmath>
+	"SimpleParser.h"
+	"LeastSquareIndividuo.h"
+
+1497644258 /home/inteligenciacomputacional/Downloads/PGDE/inc/QRDecomposition.h
+
+1508864643 /home/inteligenciacomputacional/Downloads/PGDE/src/SimpleParser.h
+	"Configures.h"
+	"Parser.h"
+	"SimpleIndividuo.h"
+	"DifferencialEvolution.h"
+	"EvolutionStrategie.h"
+	<vector>
+	<stack>
+	<tuple>
+	<cmath>
+
+1497644258 source:/home/inteligenciacomputacional/Downloads/PGDE/inc/LSDerivadasParser.cpp
+	"LSDerivadasParser.h"
+
+1497644258 /home/inteligenciacomputacional/Downloads/PGDE/inc/LSDerivadasParser.h
+	"Configures.h"
+	"Parser.h"
+	"QRDecomposition.h"
+	<vector>
+	<stack>
+	<tuple>
+	<cmath>
+	"LeastSquareIndividuo.h"
+	"SimpleParser.h"
+
+1497644258 source:/home/inteligenciacomputacional/Downloads/PGDE/inc/ParserDerivadas.cpp
+	"ParserDerivadas.h"
+
+1497644258 /home/inteligenciacomputacional/Downloads/PGDE/inc/ParserDerivadas.h
+	"Configures.h"
+	"Parser.h"
+	<vector>
+	<stack>
+	<tuple>
+	<cmath>
+	"SimpleParser.h"
+
+1497644258 source:/home/inteligenciacomputacional/Downloads/PGDE/inc/QRDecomposition.cpp
+	"QRDecomposition.h"
+	<cmath>
+	<stdlib.h>
+	<string.h>
+	<iostream>
+	<memory.h>
+
+1497644258 source:/home/inteligenciacomputacional/Downloads/PGDE/inc/RK4AGParser.cpp
+	"RK4AGParser.h"
+
+1497644258 /home/inteligenciacomputacional/Downloads/PGDE/inc/RK4AGParser.h
+	"SimpleParser.h"
+	"RK4LSIndividuo.h"
+
+1497644258 source:/home/inteligenciacomputacional/Downloads/PGDE/inc/RK4LSDerivadasParser.cpp
+	"RK4LSDerivadasParser.h"
+
+1497644258 /home/inteligenciacomputacional/Downloads/PGDE/inc/RK4LSDerivadasParser.h
+	"Configures.h"
+	"Parser.h"
+	"QRDecomposition.h"
+	<vector>
+	<stack>
+	<tuple>
+	<cmath>
+	"RK4LSIndividuo.h"
+	"SimpleParser.h"
+
+1497644258 source:/home/inteligenciacomputacional/Downloads/PGDE/inc/RK4LSDParser.cpp
+	"RK4LSDParser.h"
+
+1497644258 /home/inteligenciacomputacional/Downloads/PGDE/inc/RK4LSDParser.h
+	"SimpleParser.h"
+	"RK4LSIndividuo.h"
+	"LeastSquareIndividuo.h"
+	"QRDecomposition.h"
+
+1497644258 source:/home/inteligenciacomputacional/Downloads/PGDE/inc/RK4LSIndividuo.cpp
+	"RK4LSIndividuo.h"
+
+1497644258 source:/home/inteligenciacomputacional/Downloads/PGDE/inc/RK4LSIndividuoBuilder.cpp
+	"RK4LSIndividuoBuilder.h"
+
+1497644258 /home/inteligenciacomputacional/Downloads/PGDE/inc/RK4LSIndividuoBuilder.h
+	"IndividuoBuilder.h"
+	"RK4LSIndividuo.h"
+
+1497644258 source:/home/inteligenciacomputacional/Downloads/PGDE/inc/RK4sParser.cpp
+	"RK4sParser.h"
+
+1497644258 /home/inteligenciacomputacional/Downloads/PGDE/inc/RK4sParser.h
+	"SimpleParser.h"
+	"RK4LSIndividuo.h"
+	"DifferencialEvolution.h"
+
+1497644258 source:/home/inteligenciacomputacional/Downloads/PGDE/src/Configures.cpp
+	"Configures.h"
+
+1497644258 source:/home/inteligenciacomputacional/Downloads/PGDE/src/Crossover.cpp
+	"Crossover.h"
+
+1497644258 /home/inteligenciacomputacional/Downloads/PGDE/src/Crossover.h
+	"Subject.h"
+
+1497644258 source:/home/inteligenciacomputacional/Downloads/PGDE/src/Database.cpp
+	"Database.h"
+
+1498499960 source:/home/inteligenciacomputacional/Downloads/PGDE/src/Grammar.cpp
+	"Grammar.h"
+	"Configures.h"
+
+1497644258 source:/home/inteligenciacomputacional/Downloads/PGDE/src/IndividuoBuilder.cpp
+	"IndividuoBuilder.h"
+
+1497644258 source:/home/inteligenciacomputacional/Downloads/PGDE/src/Mutation.cpp
+	"Mutation.h"
+
+1497644258 /home/inteligenciacomputacional/Downloads/PGDE/src/Mutation.h
+	"Subject.h"
+
+1497645941 source:/home/inteligenciacomputacional/Downloads/PGDE/src/No.cpp
+	"No.h"
+	<iostream>
+	<string>
+
+1497644258 source:/home/inteligenciacomputacional/Downloads/PGDE/src/Parser.cpp
+
+1497644258 source:/home/inteligenciacomputacional/Downloads/PGDE/src/PopulationReplacement.cpp
+	"PopulationReplacement.h"
+
+1497644258 /home/inteligenciacomputacional/Downloads/PGDE/src/PopulationReplacement.h
+	"Subject.h"
+
+1497644258 source:/home/inteligenciacomputacional/Downloads/PGDE/src/Selection.cpp
+	"Selection.h"
+
+1497644258 /home/inteligenciacomputacional/Downloads/PGDE/src/Selection.h
+	"Subject.h"
+
+1497644258 source:/home/inteligenciacomputacional/Downloads/PGDE/src/SimpleCrossover.cpp
+	"SimpleCrossover.h"
+
+1497644258 /home/inteligenciacomputacional/Downloads/PGDE/src/SimpleCrossover.h
+	"Crossover.h"
+
+1497646709 source:/home/inteligenciacomputacional/Downloads/PGDE/src/SimpleIndividuo.cpp
+	"SimpleIndividuo.h"
+
+1497644258 source:/home/inteligenciacomputacional/Downloads/PGDE/src/SimpleIndividuoBuilder.cpp
+	"SimpleIndividuoBuilder.h"
+
+1497644258 /home/inteligenciacomputacional/Downloads/PGDE/src/SimpleIndividuoBuilder.h
+	"IndividuoBuilder.h"
+	"SimpleIndividuo.h"
+
+1497644258 source:/home/inteligenciacomputacional/Downloads/PGDE/src/SimpleMutation.cpp
+	"SimpleMutation.h"
+
+1497644258 /home/inteligenciacomputacional/Downloads/PGDE/src/SimpleMutation.h
+	"Mutation.h"
+
+1509971572 source:/home/inteligenciacomputacional/Downloads/PGDE/src/SimpleParser.cpp
+	"SimpleParser.h"
+
+1497894497 source:/home/inteligenciacomputacional/Downloads/PGDE/src/SimpleReplace.cpp
+	"SimpleReplace.h"
+
+1497644258 /home/inteligenciacomputacional/Downloads/PGDE/src/SimpleReplace.h
+	"Subject.h"
+	"PopulationReplacement.h"
+	"Configures.h"
+	<iostream>
+	<algorithm>
+
+1502314126 source:/home/inteligenciacomputacional/Downloads/PGDE/src/Subject.cpp
+	"Subject.h"
+
+1497644258 source:/home/inteligenciacomputacional/Downloads/PGDE/src/TournamentSelection.cpp
+	"TournamentSelection.h"
+
+1497644258 /home/inteligenciacomputacional/Downloads/PGDE/src/TournamentSelection.h
+	"Selection.h"
+	"Subject.h"
+
+1502464280 source:/home/inteligenciacomputacional/Downloads/PGDE/src/Tree.cpp
+	"Tree.h"
+
+1502836873 source:/home/inteligenciacomputacional/Downloads/PGDE/src/main.cpp
+	<iostream>
+	"Database.h"
+	"Grammar.h"
+	"No.h"
+	"Configures.h"
+	"Search.h"
+	"Configures.h"
+	"SimpleParser.h"
+	"../inc/ParserDerivadas.h"
+	"../inc/LeastSquareParser.h"
+	"../inc/LSDerivadasParser.h"
+	"IndividuoBuilder.h"
+	"LeastSquareIndividuoBuilder.h"
+	"../inc/RK4LSDerivadasParser.h"
+	"../inc/RK4LSIndividuoBuilder.h"
+	"Subject.h"
+	"RK4sParser.h"
+	"../inc/RK4AGParser.h"
+	"RK4LSDParser.h"
+	<sstream>
+
+1508518777 /home/inteligenciacomputacional/Downloads/PGDE/src/Search.h
+	"Subject.h"
+	"Grammar.h"
+	"Tree.h"
+	"Configures.h"
+	"Parser.h"
+	"SimpleParser.h"
+	<cmath>
+	<algorithm>
+	<exception>
+	"Selection.h"
+	"TournamentSelection.h"
+	"PopulationReplacement.h"
+	"SimpleReplace.h"
+	"IndividuoBuilder.h"
+	"SimpleIndividuoBuilder.h"
+	"DifferencialEvolution.h"
+	"EvolutionStrategie.h"
+	"Mutation.h"
+	"SimpleMutation.h"
+	"Crossover.h"
+	"SimpleCrossover.h"
+	<omp.h>
+
+1508865957 source:/home/inteligenciacomputacional/Downloads/PGDE/src/Search.cpp
+	"Search.h"
+
+1508868404 source:/home/inteligenciacomputacional/Downloads/PGDE/src/EvolutionStrategie.cpp
+	"EvolutionStrategie.h"
+
+1509972439 /home/inteligenciacomputacional/Downloads/PGDE/include/EvolutionStrategie.h
+	<cmath>
+	"vector"
+	<time.h>
+	<ctime>
+	<iostream>
+	<fstream>
+	<algorithm>
+	"RK4LSIndividuo.h"
+	"Parser.h"
+	"SimpleIndividuo.h"
+
+1510246983 source:/home/joao/2017/pgde/PGDE/inc/DifferencialEvolution.cpp
+	"DifferencialEvolution.h"
+
+1502837340 /home/joao/2017/pgde/PGDE/inc/DifferencialEvolution.h
+	<cmath>
+	"vector"
+	<time.h>
+	<ctime>
+	<iostream>
+	<fstream>
+	<algorithm>
+	"RK4LSIndividuo.h"
+	"Parser.h"
+	"SimpleIndividuo.h"
+
+1497644258 /home/joao/2017/pgde/PGDE/inc/RK4LSIndividuo.h
+	"Subject.h"
+
+1497893672 /home/joao/2017/pgde/PGDE/src/Subject.h
+	<iostream>
+	<vector>
+	"Tree.h"
+	<string>
+
+1502463066 /home/joao/2017/pgde/PGDE/src/Tree.h
+	"No.h"
+	"Configures.h"
+	<iostream>
+	<vector>
+	<tuple>
+
+1497645948 /home/joao/2017/pgde/PGDE/src/No.h
+	<iostream>
+	<string>
+	<vector>
+	<sstream>
+
+1510246936 /home/joao/2017/pgde/PGDE/src/Configures.h
+	<stdlib.h>
+	<time.h>
+	<omp.h>
+	"Grammar.h"
+
+1497646960 /home/joao/2017/pgde/PGDE/src/Grammar.h
+	<tuple>
+	<vector>
+	<string>
+	<sstream>
+	<fstream>
+	<algorithm>
+	"Database.h"
+	"No.h"
+	"Configures.h"
+
+1497644258 /home/joao/2017/pgde/PGDE/src/Database.h
+	<iostream>
+	<cstring>
+	<fstream>
+	<vector>
+	<cmath>
+	"Configures.h"
+
+1497644258 /home/joao/2017/pgde/PGDE/src/Parser.h
+	"Configures.h"
+	"Subject.h"
+	<string>
+
+1499364148 /home/joao/2017/pgde/PGDE/src/SimpleIndividuo.h
+	"Subject.h"
+
+1497644258 source:/home/joao/2017/pgde/PGDE/inc/LeastSquareIndividuo.cpp
+	"LeastSquareIndividuo.h"
+	"Tree.h"
+
+1497644258 /home/joao/2017/pgde/PGDE/inc/LeastSquareIndividuo.h
+	"Subject.h"
+
+1497644258 source:/home/joao/2017/pgde/PGDE/inc/LeastSquareIndividuoBuilder.cpp
+	"LeastSquareIndividuoBuilder.h"
+
+1497644258 /home/joao/2017/pgde/PGDE/inc/LeastSquareIndividuoBuilder.h
+	"IndividuoBuilder.h"
+	"LeastSquareIndividuo.h"
+
+1497644258 /home/joao/2017/pgde/PGDE/src/IndividuoBuilder.h
+	"Subject.h"
+	<string>
+
+1497644258 source:/home/joao/2017/pgde/PGDE/inc/LeastSquareParser.cpp
+	"LeastSquareParser.h"
+
+1497644258 /home/joao/2017/pgde/PGDE/inc/LeastSquareParser.h
+	"Configures.h"
+	"Parser.h"
+	"../inc/QRDecomposition.h"
+	<vector>
+	<stack>
+	<tuple>
+	<cmath>
+	"SimpleParser.h"
+	"LeastSquareIndividuo.h"
+
+1497644258 /home/joao/2017/pgde/PGDE/inc/QRDecomposition.h
+
+1508864644 /home/joao/2017/pgde/PGDE/src/SimpleParser.h
+	"Configures.h"
+	"Parser.h"
+	"SimpleIndividuo.h"
+	"DifferencialEvolution.h"
+	"EvolutionStrategie.h"
+	<vector>
+	<stack>
+	<tuple>
+	<cmath>
+
+1509972440 /home/joao/2017/pgde/PGDE/include/EvolutionStrategie.h
+	<cmath>
+	"vector"
+	<time.h>
+	<ctime>
+	<iostream>
+	<fstream>
+	<algorithm>
+	"RK4LSIndividuo.h"
+	"Parser.h"
+	"SimpleIndividuo.h"
+
+1497644258 source:/home/joao/2017/pgde/PGDE/inc/LSDerivadasParser.cpp
+	"LSDerivadasParser.h"
+
+1497644258 /home/joao/2017/pgde/PGDE/inc/LSDerivadasParser.h
+	"Configures.h"
+	"Parser.h"
+	"QRDecomposition.h"
+	<vector>
+	<stack>
+	<tuple>
+	<cmath>
+	"LeastSquareIndividuo.h"
+	"SimpleParser.h"
+
+1497644258 source:/home/joao/2017/pgde/PGDE/inc/ParserDerivadas.cpp
+	"ParserDerivadas.h"
+
+1497644258 /home/joao/2017/pgde/PGDE/inc/ParserDerivadas.h
+	"Configures.h"
+	"Parser.h"
+	<vector>
+	<stack>
+	<tuple>
+	<cmath>
+	"SimpleParser.h"
+
+1497644258 source:/home/joao/2017/pgde/PGDE/inc/QRDecomposition.cpp
+	"QRDecomposition.h"
+	<cmath>
+	<stdlib.h>
+	<string.h>
+	<iostream>
+	<memory.h>
+
+1497644258 source:/home/joao/2017/pgde/PGDE/inc/RK4AGParser.cpp
+	"RK4AGParser.h"
+
+1497644258 /home/joao/2017/pgde/PGDE/inc/RK4AGParser.h
+	"SimpleParser.h"
+	"RK4LSIndividuo.h"
+
+1497644258 source:/home/joao/2017/pgde/PGDE/inc/RK4LSDerivadasParser.cpp
+	"RK4LSDerivadasParser.h"
+
+1497644258 /home/joao/2017/pgde/PGDE/inc/RK4LSDerivadasParser.h
+	"Configures.h"
+	"Parser.h"
+	"QRDecomposition.h"
+	<vector>
+	<stack>
+	<tuple>
+	<cmath>
+	"RK4LSIndividuo.h"
+	"SimpleParser.h"
+
+1497644258 source:/home/joao/2017/pgde/PGDE/inc/RK4LSDParser.cpp
+	"RK4LSDParser.h"
+
+1497644258 /home/joao/2017/pgde/PGDE/inc/RK4LSDParser.h
+	"SimpleParser.h"
+	"RK4LSIndividuo.h"
+	"LeastSquareIndividuo.h"
+	"QRDecomposition.h"
+
+1497644258 source:/home/joao/2017/pgde/PGDE/inc/RK4LSIndividuo.cpp
+	"RK4LSIndividuo.h"
+
+1497644258 source:/home/joao/2017/pgde/PGDE/inc/RK4LSIndividuoBuilder.cpp
+	"RK4LSIndividuoBuilder.h"
+
+1497644258 /home/joao/2017/pgde/PGDE/inc/RK4LSIndividuoBuilder.h
+	"IndividuoBuilder.h"
+	"RK4LSIndividuo.h"
+
+1497644258 source:/home/joao/2017/pgde/PGDE/inc/RK4sParser.cpp
+	"RK4sParser.h"
+
+1497644258 /home/joao/2017/pgde/PGDE/inc/RK4sParser.h
+	"SimpleParser.h"
+	"RK4LSIndividuo.h"
+	"DifferencialEvolution.h"
+
+1497644258 source:/home/joao/2017/pgde/PGDE/src/Configures.cpp
+	"Configures.h"
+
+1497644258 source:/home/joao/2017/pgde/PGDE/src/Crossover.cpp
+	"Crossover.h"
+
+1497644258 /home/joao/2017/pgde/PGDE/src/Crossover.h
+	"Subject.h"
+
+1497644258 source:/home/joao/2017/pgde/PGDE/src/Database.cpp
+	"Database.h"
+
+1512580973 source:/home/joao/2017/pgde/PGDE/src/EvolutionStrategie.cpp
+	"EvolutionStrategie.h"
+
+1498499960 source:/home/joao/2017/pgde/PGDE/src/Grammar.cpp
+	"Grammar.h"
+	"Configures.h"
+
+1497644258 source:/home/joao/2017/pgde/PGDE/src/IndividuoBuilder.cpp
+	"IndividuoBuilder.h"
+
+1497644258 source:/home/joao/2017/pgde/PGDE/src/Mutation.cpp
+	"Mutation.h"
+
+1497644258 /home/joao/2017/pgde/PGDE/src/Mutation.h
+	"Subject.h"
+
+1497645942 source:/home/joao/2017/pgde/PGDE/src/No.cpp
+	"No.h"
+	<iostream>
+	<string>
+
+1497644258 source:/home/joao/2017/pgde/PGDE/src/Parser.cpp
+
+1497644258 source:/home/joao/2017/pgde/PGDE/src/PopulationReplacement.cpp
+	"PopulationReplacement.h"
+
+1497644258 /home/joao/2017/pgde/PGDE/src/PopulationReplacement.h
+	"Subject.h"
+
+1512580756 source:/home/joao/2017/pgde/PGDE/src/Search.cpp
+	"Search.h"
+	<vector>
+
+1508518778 /home/joao/2017/pgde/PGDE/src/Search.h
+	"Subject.h"
+	"Grammar.h"
+	"Tree.h"
+	"Configures.h"
+	"Parser.h"
+	"SimpleParser.h"
+	<cmath>
+	<algorithm>
+	<exception>
+	"Selection.h"
+	"TournamentSelection.h"
+	"PopulationReplacement.h"
+	"SimpleReplace.h"
+	"IndividuoBuilder.h"
+	"SimpleIndividuoBuilder.h"
+	"DifferencialEvolution.h"
+	"EvolutionStrategie.h"
+	"Mutation.h"
+	"SimpleMutation.h"
+	"Crossover.h"
+	"SimpleCrossover.h"
+	<omp.h>
+
+1497644258 /home/joao/2017/pgde/PGDE/src/Selection.h
+	"Subject.h"
+
+1497644258 /home/joao/2017/pgde/PGDE/src/TournamentSelection.h
+	"Selection.h"
+	"Subject.h"
+
+1497644258 /home/joao/2017/pgde/PGDE/src/SimpleReplace.h
+	"Subject.h"
+	"PopulationReplacement.h"
+	"Configures.h"
+	<iostream>
+	<algorithm>
+
+1497644258 /home/joao/2017/pgde/PGDE/src/SimpleIndividuoBuilder.h
+	"IndividuoBuilder.h"
+	"SimpleIndividuo.h"
+
+1497644258 /home/joao/2017/pgde/PGDE/src/SimpleMutation.h
+	"Mutation.h"
+
+1497644258 /home/joao/2017/pgde/PGDE/src/SimpleCrossover.h
+	"Crossover.h"
+
+1497644258 source:/home/joao/2017/pgde/PGDE/src/Selection.cpp
+	"Selection.h"
+
+1497644258 source:/home/joao/2017/pgde/PGDE/src/SimpleCrossover.cpp
+	"SimpleCrossover.h"
+
+1510253013 source:/home/joao/2017/pgde/PGDE/src/SimpleIndividuo.cpp
+	"SimpleIndividuo.h"
+
+1497644258 source:/home/joao/2017/pgde/PGDE/src/SimpleIndividuoBuilder.cpp
+	"SimpleIndividuoBuilder.h"
+
+1497644258 source:/home/joao/2017/pgde/PGDE/src/SimpleMutation.cpp
+	"SimpleMutation.h"
+
+1512580875 source:/home/joao/2017/pgde/PGDE/src/SimpleParser.cpp
+	"SimpleParser.h"
+
+1497894498 source:/home/joao/2017/pgde/PGDE/src/SimpleReplace.cpp
+	"SimpleReplace.h"
+
+1502314126 source:/home/joao/2017/pgde/PGDE/src/Subject.cpp
+	"Subject.h"
+
+1497644258 source:/home/joao/2017/pgde/PGDE/src/TournamentSelection.cpp
+	"TournamentSelection.h"
+
+1502464280 source:/home/joao/2017/pgde/PGDE/src/Tree.cpp
+	"Tree.h"
+
+1510254478 source:/home/joao/2017/pgde/PGDE/src/main.cpp
+	<iostream>
+	"Database.h"
+	"Grammar.h"
+	"No.h"
+	"Configures.h"
+	"Search.h"
+	"Configures.h"
+	"SimpleParser.h"
+	"../inc/ParserDerivadas.h"
+	"../inc/LeastSquareParser.h"
+	"../inc/LSDerivadasParser.h"
+	"IndividuoBuilder.h"
+	"LeastSquareIndividuoBuilder.h"
+	"../inc/RK4LSDerivadasParser.h"
+	"../inc/RK4LSIndividuoBuilder.h"
+	"Subject.h"
+	"RK4sParser.h"
+	"../inc/RK4AGParser.h"
+	"RK4LSDParser.h"
+	<sstream>
+
+1510246983 source:/home/joao/2017/pgde/PGDEC/inc/DifferencialEvolution.cpp
+	"DifferencialEvolution.h"
+
+1502837340 /home/joao/2017/pgde/PGDEC/inc/DifferencialEvolution.h
+	<cmath>
+	"vector"
+	<time.h>
+	<ctime>
+	<iostream>
+	<fstream>
+	<algorithm>
+	"RK4LSIndividuo.h"
+	"Parser.h"
+	"SimpleIndividuo.h"
+
+1497644258 /home/joao/2017/pgde/PGDEC/inc/RK4LSIndividuo.h
+	"Subject.h"
+
+1525803168 /home/joao/2017/pgde/PGDEC/src/Subject.h
+	<iostream>
+	<vector>
+	"Tree.h"
+	<string>
+
+1525283795 /home/joao/2017/pgde/PGDEC/src/Tree.h
+	"No.h"
+	"Configures.h"
+	<iostream>
+	<vector>
+	<tuple>
+
+1497645948 /home/joao/2017/pgde/PGDEC/src/No.h
+	<iostream>
+	<string>
+	<vector>
+	<sstream>
+
+1510246936 /home/joao/2017/pgde/PGDEC/src/Configures.h
+	<stdlib.h>
+	<time.h>
+	<omp.h>
+	"Grammar.h"
+
+1497646960 /home/joao/2017/pgde/PGDEC/src/Grammar.h
+	<tuple>
+	<vector>
+	<string>
+	<sstream>
+	<fstream>
+	<algorithm>
+	"Database.h"
+	"No.h"
+	"Configures.h"
+
+1497644258 /home/joao/2017/pgde/PGDEC/src/Database.h
+	<iostream>
+	<cstring>
+	<fstream>
+	<vector>
+	<cmath>
+	"Configures.h"
+
+1497644258 /home/joao/2017/pgde/PGDEC/src/Parser.h
+	"Configures.h"
+	"Subject.h"
+	<string>
+
+1499364148 /home/joao/2017/pgde/PGDEC/src/SimpleIndividuo.h
+	"Subject.h"
+
+1497644258 source:/home/joao/2017/pgde/PGDEC/inc/LeastSquareIndividuo.cpp
+	"LeastSquareIndividuo.h"
+	"Tree.h"
+
+1497644258 /home/joao/2017/pgde/PGDEC/inc/LeastSquareIndividuo.h
+	"Subject.h"
+
+1497644258 source:/home/joao/2017/pgde/PGDEC/inc/LeastSquareIndividuoBuilder.cpp
+	"LeastSquareIndividuoBuilder.h"
+
+1497644258 /home/joao/2017/pgde/PGDEC/inc/LeastSquareIndividuoBuilder.h
+	"IndividuoBuilder.h"
+	"LeastSquareIndividuo.h"
+
+1497644258 /home/joao/2017/pgde/PGDEC/src/IndividuoBuilder.h
+	"Subject.h"
+	<string>
+
+1497644258 source:/home/joao/2017/pgde/PGDEC/inc/LeastSquareParser.cpp
+	"LeastSquareParser.h"
+
+1497644258 /home/joao/2017/pgde/PGDEC/inc/LeastSquareParser.h
+	"Configures.h"
+	"Parser.h"
+	"../inc/QRDecomposition.h"
+	<vector>
+	<stack>
+	<tuple>
+	<cmath>
+	"SimpleParser.h"
+	"LeastSquareIndividuo.h"
+
+1497644258 /home/joao/2017/pgde/PGDEC/inc/QRDecomposition.h
+
+1508864644 /home/joao/2017/pgde/PGDEC/src/SimpleParser.h
+	"Configures.h"
+	"Parser.h"
+	"SimpleIndividuo.h"
+	"DifferencialEvolution.h"
+	"EvolutionStrategie.h"
+	<vector>
+	<stack>
+	<tuple>
+	<cmath>
+
+1509972440 /home/joao/2017/pgde/PGDEC/include/EvolutionStrategie.h
+	<cmath>
+	"vector"
+	<time.h>
+	<ctime>
+	<iostream>
+	<fstream>
+	<algorithm>
+	"RK4LSIndividuo.h"
+	"Parser.h"
+	"SimpleIndividuo.h"
+
+1497644258 source:/home/joao/2017/pgde/PGDEC/inc/LSDerivadasParser.cpp
+	"LSDerivadasParser.h"
+
+1497644258 /home/joao/2017/pgde/PGDEC/inc/LSDerivadasParser.h
+	"Configures.h"
+	"Parser.h"
+	"QRDecomposition.h"
+	<vector>
+	<stack>
+	<tuple>
+	<cmath>
+	"LeastSquareIndividuo.h"
+	"SimpleParser.h"
+
+1497644258 source:/home/joao/2017/pgde/PGDEC/inc/ParserDerivadas.cpp
+	"ParserDerivadas.h"
+
+1497644258 /home/joao/2017/pgde/PGDEC/inc/ParserDerivadas.h
+	"Configures.h"
+	"Parser.h"
+	<vector>
+	<stack>
+	<tuple>
+	<cmath>
+	"SimpleParser.h"
+
+1497644258 source:/home/joao/2017/pgde/PGDEC/inc/QRDecomposition.cpp
+	"QRDecomposition.h"
+	<cmath>
+	<stdlib.h>
+	<string.h>
+	<iostream>
+	<memory.h>
+
+1497644258 source:/home/joao/2017/pgde/PGDEC/inc/RK4AGParser.cpp
+	"RK4AGParser.h"
+
+1497644258 /home/joao/2017/pgde/PGDEC/inc/RK4AGParser.h
+	"SimpleParser.h"
+	"RK4LSIndividuo.h"
+
+1497644258 source:/home/joao/2017/pgde/PGDEC/inc/RK4LSDerivadasParser.cpp
+	"RK4LSDerivadasParser.h"
+
+1497644258 /home/joao/2017/pgde/PGDEC/inc/RK4LSDerivadasParser.h
+	"Configures.h"
+	"Parser.h"
+	"QRDecomposition.h"
+	<vector>
+	<stack>
+	<tuple>
+	<cmath>
+	"RK4LSIndividuo.h"
+	"SimpleParser.h"
+
+1497644258 source:/home/joao/2017/pgde/PGDEC/inc/RK4LSDParser.cpp
+	"RK4LSDParser.h"
+
+1497644258 /home/joao/2017/pgde/PGDEC/inc/RK4LSDParser.h
+	"SimpleParser.h"
+	"RK4LSIndividuo.h"
+	"LeastSquareIndividuo.h"
+	"QRDecomposition.h"
+
+1497644258 source:/home/joao/2017/pgde/PGDEC/inc/RK4LSIndividuo.cpp
+	"RK4LSIndividuo.h"
+
+1497644258 source:/home/joao/2017/pgde/PGDEC/inc/RK4LSIndividuoBuilder.cpp
+	"RK4LSIndividuoBuilder.h"
+
+1497644258 /home/joao/2017/pgde/PGDEC/inc/RK4LSIndividuoBuilder.h
+	"IndividuoBuilder.h"
+	"RK4LSIndividuo.h"
+
+1497644258 source:/home/joao/2017/pgde/PGDEC/inc/RK4sParser.cpp
+	"RK4sParser.h"
+
+1497644258 /home/joao/2017/pgde/PGDEC/inc/RK4sParser.h
+	"SimpleParser.h"
+	"RK4LSIndividuo.h"
+	"DifferencialEvolution.h"
+
+1497644258 source:/home/joao/2017/pgde/PGDEC/src/Configures.cpp
+	"Configures.h"
+
+1497644258 source:/home/joao/2017/pgde/PGDEC/src/Crossover.cpp
+	"Crossover.h"
+
+1497644258 /home/joao/2017/pgde/PGDEC/src/Crossover.h
+	"Subject.h"
+
+1497644258 source:/home/joao/2017/pgde/PGDEC/src/Database.cpp
+	"Database.h"
+
+1512580973 source:/home/joao/2017/pgde/PGDEC/src/EvolutionStrategie.cpp
+	"EvolutionStrategie.h"
+
+1498499960 source:/home/joao/2017/pgde/PGDEC/src/Grammar.cpp
+	"Grammar.h"
+	"Configures.h"
+
+1497644258 source:/home/joao/2017/pgde/PGDEC/src/IndividuoBuilder.cpp
+	"IndividuoBuilder.h"
+
+1525284551 source:/home/joao/2017/pgde/PGDEC/src/main.cpp
+	<iostream>
+	"Database.h"
+	"Grammar.h"
+	"No.h"
+	"Configures.h"
+	"Search.h"
+	"MultiSearch.h"
+	"Configures.h"
+	"SimpleParser.h"
+	"../inc/ParserDerivadas.h"
+	"../inc/LeastSquareParser.h"
+	"../inc/LSDerivadasParser.h"
+	"IndividuoBuilder.h"
+	"LeastSquareIndividuoBuilder.h"
+	"../inc/RK4LSDerivadasParser.h"
+	"../inc/RK4LSIndividuoBuilder.h"
+	"Subject.h"
+	"RK4sParser.h"
+	"../inc/RK4AGParser.h"
+	"RK4LSDParser.h"
+	<sstream>
+
+1508518778 /home/joao/2017/pgde/PGDEC/src/Search.h
+	"Subject.h"
+	"Grammar.h"
+	"Tree.h"
+	"Configures.h"
+	"Parser.h"
+	"SimpleParser.h"
+	<cmath>
+	<algorithm>
+	<exception>
+	"Selection.h"
+	"TournamentSelection.h"
+	"PopulationReplacement.h"
+	"SimpleReplace.h"
+	"IndividuoBuilder.h"
+	"SimpleIndividuoBuilder.h"
+	"DifferencialEvolution.h"
+	"EvolutionStrategie.h"
+	"Mutation.h"
+	"SimpleMutation.h"
+	"Crossover.h"
+	"SimpleCrossover.h"
+	<omp.h>
+
+1497644258 /home/joao/2017/pgde/PGDEC/src/Selection.h
+	"Subject.h"
+
+1497644258 /home/joao/2017/pgde/PGDEC/src/TournamentSelection.h
+	"Selection.h"
+	"Subject.h"
+
+1497644258 /home/joao/2017/pgde/PGDEC/src/PopulationReplacement.h
+	"Subject.h"
+
+1497644258 /home/joao/2017/pgde/PGDEC/src/SimpleReplace.h
+	"Subject.h"
+	"PopulationReplacement.h"
+	"Configures.h"
+	<iostream>
+	<algorithm>
+
+1497644258 /home/joao/2017/pgde/PGDEC/src/SimpleIndividuoBuilder.h
+	"IndividuoBuilder.h"
+	"SimpleIndividuo.h"
+
+1497644258 /home/joao/2017/pgde/PGDEC/src/Mutation.h
+	"Subject.h"
+
+1497644258 /home/joao/2017/pgde/PGDEC/src/SimpleMutation.h
+	"Mutation.h"
+
+1497644258 /home/joao/2017/pgde/PGDEC/src/SimpleCrossover.h
+	"Crossover.h"
+
+1497644258 source:/home/joao/2017/pgde/PGDEC/src/Mutation.cpp
+	"Mutation.h"
+
+1497645942 source:/home/joao/2017/pgde/PGDEC/src/No.cpp
+	"No.h"
+	<iostream>
+	<string>
+
+1497644258 source:/home/joao/2017/pgde/PGDEC/src/Parser.cpp
+
+1497644258 source:/home/joao/2017/pgde/PGDEC/src/PopulationReplacement.cpp
+	"PopulationReplacement.h"
+
+1497644258 source:/home/joao/2017/pgde/PGDEC/src/Selection.cpp
+	"Selection.h"
+
+1497644258 source:/home/joao/2017/pgde/PGDEC/src/SimpleCrossover.cpp
+	"SimpleCrossover.h"
+
+1510253013 source:/home/joao/2017/pgde/PGDEC/src/SimpleIndividuo.cpp
+	"SimpleIndividuo.h"
+
+1497644258 source:/home/joao/2017/pgde/PGDEC/src/SimpleIndividuoBuilder.cpp
+	"SimpleIndividuoBuilder.h"
+
+1525286648 source:/home/joao/2017/pgde/PGDEC/src/SimpleMutation.cpp
+	"SimpleMutation.h"
+
+1512580875 source:/home/joao/2017/pgde/PGDEC/src/SimpleParser.cpp
+	"SimpleParser.h"
+
+1497894498 source:/home/joao/2017/pgde/PGDEC/src/SimpleReplace.cpp
+	"SimpleReplace.h"
+
+1525286765 source:/home/joao/2017/pgde/PGDEC/src/Subject.cpp
+	"Subject.h"
+
+1497644258 source:/home/joao/2017/pgde/PGDEC/src/TournamentSelection.cpp
+	"TournamentSelection.h"
+
+1502464280 source:/home/joao/2017/pgde/PGDEC/src/Tree.cpp
+	"Tree.h"
+
+1525285531 source:/home/joao/2017/pgde/PGDEC/src/Search.cpp
+	"Search.h"
+	<vector>
+
+1525806523 source:/home/joao/2017/pgde/PGDEC/src/MultiSearch.cpp
+	"MultiSearch.h"
+	<vector>
+
+1525806110 /home/joao/2017/pgde/PGDEC/include/MultiSearch.h
+	"Subject.h"
+	"Grammar.h"
+	"Tree.h"
+	"Configures.h"
+	"Parser.h"
+	"SimpleParser.h"
+	<cmath>
+	<algorithm>
+	<exception>
+	"Selection.h"
+	"TournamentSelection.h"
+	"PopulationReplacement.h"
+	"SimpleReplace.h"
+	"IndividuoBuilder.h"
+	"SimpleIndividuoBuilder.h"
+	"DifferencialEvolution.h"
+	"EvolutionStrategie.h"
+	"Mutation.h"
+	"SimpleMutation.h"
+	"Crossover.h"
+	"SimpleCrossover.h"
+	<omp.h>
+
+1510246983 source:/home/joao/2017/pgde/ggpmo/PGDEC/inc/DifferencialEvolution.cpp
+	"DifferencialEvolution.h"
+
+1502837340 /home/joao/2017/pgde/ggpmo/PGDEC/inc/DifferencialEvolution.h
+	<cmath>
+	"vector"
+	<time.h>
+	<ctime>
+	<iostream>
+	<fstream>
+	<algorithm>
+	"RK4LSIndividuo.h"
+	"Parser.h"
+	"SimpleIndividuo.h"
+
+1497644258 /home/joao/2017/pgde/ggpmo/PGDEC/inc/RK4LSIndividuo.h
+	"Subject.h"
+
+1525803168 /home/joao/2017/pgde/ggpmo/PGDEC/src/Subject.h
+	<iostream>
+	<vector>
+	"Tree.h"
+	<string>
+
+1525283795 /home/joao/2017/pgde/ggpmo/PGDEC/src/Tree.h
+	"No.h"
+	"Configures.h"
+	<iostream>
+	<vector>
+	<tuple>
+
+1497645948 /home/joao/2017/pgde/ggpmo/PGDEC/src/No.h
+	<iostream>
+	<string>
+	<vector>
+	<sstream>
+
+1510246936 /home/joao/2017/pgde/ggpmo/PGDEC/src/Configures.h
+	<stdlib.h>
+	<time.h>
+	<omp.h>
+	"Grammar.h"
+
+1497646960 /home/joao/2017/pgde/ggpmo/PGDEC/src/Grammar.h
+	<tuple>
+	<vector>
+	<string>
+	<sstream>
+	<fstream>
+	<algorithm>
+	"Database.h"
+	"No.h"
+	"Configures.h"
+
+1497644258 /home/joao/2017/pgde/ggpmo/PGDEC/src/Database.h
+	<iostream>
+	<cstring>
+	<fstream>
+	<vector>
+	<cmath>
+	"Configures.h"
+
+1497644258 /home/joao/2017/pgde/ggpmo/PGDEC/src/Parser.h
+	"Configures.h"
+	"Subject.h"
+	<string>
+
+1499364148 /home/joao/2017/pgde/ggpmo/PGDEC/src/SimpleIndividuo.h
+	"Subject.h"
+
+1497644258 source:/home/joao/2017/pgde/ggpmo/PGDEC/inc/LeastSquareIndividuo.cpp
+	"LeastSquareIndividuo.h"
+	"Tree.h"
+
+1497644258 /home/joao/2017/pgde/ggpmo/PGDEC/inc/LeastSquareIndividuo.h
+	"Subject.h"
+
+1497644258 source:/home/joao/2017/pgde/ggpmo/PGDEC/inc/LeastSquareIndividuoBuilder.cpp
+	"LeastSquareIndividuoBuilder.h"
+
+1497644258 /home/joao/2017/pgde/ggpmo/PGDEC/inc/LeastSquareIndividuoBuilder.h
+	"IndividuoBuilder.h"
+	"LeastSquareIndividuo.h"
+
+1497644258 /home/joao/2017/pgde/ggpmo/PGDEC/src/IndividuoBuilder.h
+	"Subject.h"
+	<string>
+
+1497644258 source:/home/joao/2017/pgde/ggpmo/PGDEC/inc/LeastSquareParser.cpp
+	"LeastSquareParser.h"
+
+1497644258 /home/joao/2017/pgde/ggpmo/PGDEC/inc/LeastSquareParser.h
+	"Configures.h"
+	"Parser.h"
+	"../inc/QRDecomposition.h"
+	<vector>
+	<stack>
+	<tuple>
+	<cmath>
+	"SimpleParser.h"
+	"LeastSquareIndividuo.h"
+
+1497644258 /home/joao/2017/pgde/ggpmo/PGDEC/inc/QRDecomposition.h
+
+1508864644 /home/joao/2017/pgde/ggpmo/PGDEC/src/SimpleParser.h
+	"Configures.h"
+	"Parser.h"
+	"SimpleIndividuo.h"
+	"DifferencialEvolution.h"
+	"EvolutionStrategie.h"
+	<vector>
+	<stack>
+	<tuple>
+	<cmath>
+
+1509972440 /home/joao/2017/pgde/ggpmo/PGDEC/include/EvolutionStrategie.h
+	<cmath>
+	"vector"
+	<time.h>
+	<ctime>
+	<iostream>
+	<fstream>
+	<algorithm>
+	"RK4LSIndividuo.h"
+	"Parser.h"
+	"SimpleIndividuo.h"
+
+1497644258 source:/home/joao/2017/pgde/ggpmo/PGDEC/inc/LSDerivadasParser.cpp
+	"LSDerivadasParser.h"
+
+1497644258 /home/joao/2017/pgde/ggpmo/PGDEC/inc/LSDerivadasParser.h
+	"Configures.h"
+	"Parser.h"
+	"QRDecomposition.h"
+	<vector>
+	<stack>
+	<tuple>
+	<cmath>
+	"LeastSquareIndividuo.h"
+	"SimpleParser.h"
+
+1497644258 source:/home/joao/2017/pgde/ggpmo/PGDEC/inc/ParserDerivadas.cpp
+	"ParserDerivadas.h"
+
+1497644258 /home/joao/2017/pgde/ggpmo/PGDEC/inc/ParserDerivadas.h
+	"Configures.h"
+	"Parser.h"
+	<vector>
+	<stack>
+	<tuple>
+	<cmath>
+	"SimpleParser.h"
+
+1497644258 source:/home/joao/2017/pgde/ggpmo/PGDEC/inc/QRDecomposition.cpp
+	"QRDecomposition.h"
+	<cmath>
+	<stdlib.h>
+	<string.h>
+	<iostream>
+	<memory.h>
+
+1497644258 source:/home/joao/2017/pgde/ggpmo/PGDEC/inc/RK4AGParser.cpp
+	"RK4AGParser.h"
+
+1497644258 /home/joao/2017/pgde/ggpmo/PGDEC/inc/RK4AGParser.h
+	"SimpleParser.h"
+	"RK4LSIndividuo.h"
+
+1497644258 source:/home/joao/2017/pgde/ggpmo/PGDEC/inc/RK4LSDerivadasParser.cpp
+	"RK4LSDerivadasParser.h"
+
+1497644258 /home/joao/2017/pgde/ggpmo/PGDEC/inc/RK4LSDerivadasParser.h
+	"Configures.h"
+	"Parser.h"
+	"QRDecomposition.h"
+	<vector>
+	<stack>
+	<tuple>
+	<cmath>
+	"RK4LSIndividuo.h"
+	"SimpleParser.h"
+
+1497644258 source:/home/joao/2017/pgde/ggpmo/PGDEC/inc/RK4LSDParser.cpp
+	"RK4LSDParser.h"
+
+1497644258 /home/joao/2017/pgde/ggpmo/PGDEC/inc/RK4LSDParser.h
+	"SimpleParser.h"
+	"RK4LSIndividuo.h"
+	"LeastSquareIndividuo.h"
+	"QRDecomposition.h"
+
+1497644258 source:/home/joao/2017/pgde/ggpmo/PGDEC/inc/RK4LSIndividuo.cpp
+	"RK4LSIndividuo.h"
+
+1497644258 source:/home/joao/2017/pgde/ggpmo/PGDEC/inc/RK4LSIndividuoBuilder.cpp
+	"RK4LSIndividuoBuilder.h"
+
+1497644258 /home/joao/2017/pgde/ggpmo/PGDEC/inc/RK4LSIndividuoBuilder.h
+	"IndividuoBuilder.h"
+	"RK4LSIndividuo.h"
+
+1497644258 source:/home/joao/2017/pgde/ggpmo/PGDEC/inc/RK4sParser.cpp
+	"RK4sParser.h"
+
+1497644258 /home/joao/2017/pgde/ggpmo/PGDEC/inc/RK4sParser.h
+	"SimpleParser.h"
+	"RK4LSIndividuo.h"
+	"DifferencialEvolution.h"
+
+1497644258 source:/home/joao/2017/pgde/ggpmo/PGDEC/src/Configures.cpp
+	"Configures.h"
+
+1497644258 source:/home/joao/2017/pgde/ggpmo/PGDEC/src/Crossover.cpp
+	"Crossover.h"
+
+1497644258 /home/joao/2017/pgde/ggpmo/PGDEC/src/Crossover.h
+	"Subject.h"
+
+1497644258 source:/home/joao/2017/pgde/ggpmo/PGDEC/src/Database.cpp
+	"Database.h"
+
+1530040720 source:/home/joao/2017/pgde/ggpmo/PGDEC/src/EvolutionStrategie.cpp
+	"EvolutionStrategie.h"
+
+1498499960 source:/home/joao/2017/pgde/ggpmo/PGDEC/src/Grammar.cpp
+	"Grammar.h"
+	"Configures.h"
+
+1497644258 source:/home/joao/2017/pgde/ggpmo/PGDEC/src/IndividuoBuilder.cpp
+	"IndividuoBuilder.h"
+
+1534542762 source:/home/joao/2017/pgde/ggpmo/PGDEC/src/main.cpp
+	<iostream>
+	"Database.h"
+	"Grammar.h"
+	"No.h"
+	"Configures.h"
+	"Search.h"
+	"MultiSearch.h"
+	"Configures.h"
+	"SimpleParser.h"
+	"../inc/ParserDerivadas.h"
+	"../inc/LeastSquareParser.h"
+	"../inc/LSDerivadasParser.h"
+	"IndividuoBuilder.h"
+	"LeastSquareIndividuoBuilder.h"
+	"../inc/RK4LSDerivadasParser.h"
+	"../inc/RK4LSIndividuoBuilder.h"
+	"Subject.h"
+	"RK4sParser.h"
+	"../inc/RK4AGParser.h"
+	"RK4LSDParser.h"
+	<sstream>
+
+1508518778 /home/joao/2017/pgde/ggpmo/PGDEC/src/Search.h
+	"Subject.h"
+	"Grammar.h"
+	"Tree.h"
+	"Configures.h"
+	"Parser.h"
+	"SimpleParser.h"
+	<cmath>
+	<algorithm>
+	<exception>
+	"Selection.h"
+	"TournamentSelection.h"
+	"PopulationReplacement.h"
+	"SimpleReplace.h"
+	"IndividuoBuilder.h"
+	"SimpleIndividuoBuilder.h"
+	"DifferencialEvolution.h"
+	"EvolutionStrategie.h"
+	"Mutation.h"
+	"SimpleMutation.h"
+	"Crossover.h"
+	"SimpleCrossover.h"
+	<omp.h>
+
+1497644258 /home/joao/2017/pgde/ggpmo/PGDEC/src/Selection.h
+	"Subject.h"
+
+1528828475 /home/joao/2017/pgde/ggpmo/PGDEC/src/TournamentSelection.h
+	"Selection.h"
+	"Subject.h"
+
+1497644258 /home/joao/2017/pgde/ggpmo/PGDEC/src/PopulationReplacement.h
+	"Subject.h"
+
+1497644258 /home/joao/2017/pgde/ggpmo/PGDEC/src/SimpleReplace.h
+	"Subject.h"
+	"PopulationReplacement.h"
+	"Configures.h"
+	<iostream>
+	<algorithm>
+
+1497644258 /home/joao/2017/pgde/ggpmo/PGDEC/src/SimpleIndividuoBuilder.h
+	"IndividuoBuilder.h"
+	"SimpleIndividuo.h"
+
+1497644258 /home/joao/2017/pgde/ggpmo/PGDEC/src/Mutation.h
+	"Subject.h"
+
+1497644258 /home/joao/2017/pgde/ggpmo/PGDEC/src/SimpleMutation.h
+	"Mutation.h"
+
+1497644258 /home/joao/2017/pgde/ggpmo/PGDEC/src/SimpleCrossover.h
+	"Crossover.h"
+
+1530047821 /home/joao/2017/pgde/ggpmo/PGDEC/include/MultiSearch.h
+	"Subject.h"
+	"Grammar.h"
+	"Tree.h"
+	"Configures.h"
+	"Parser.h"
+	"SimpleParser.h"
+	<cmath>
+	<algorithm>
+	<exception>
+	"Selection.h"
+	"TournamentSelection.h"
+	"PopulationReplacement.h"
+	"SimpleReplace.h"
+	"IndividuoBuilder.h"
+	"SimpleIndividuoBuilder.h"
+	"DifferencialEvolution.h"
+	"EvolutionStrategie.h"
+	"Mutation.h"
+	"SimpleMutation.h"
+	"Crossover.h"
+	"SimpleCrossover.h"
+	<omp.h>
+
+1534892405 source:/home/joao/2017/pgde/ggpmo/PGDEC/src/MultiSearch.cpp
+	"MultiSearch.h"
+	<vector>
+
+1497644258 source:/home/joao/2017/pgde/ggpmo/PGDEC/src/Mutation.cpp
+	"Mutation.h"
+
+1497645942 source:/home/joao/2017/pgde/ggpmo/PGDEC/src/No.cpp
+	"No.h"
+	<iostream>
+	<string>
+
+1497644258 source:/home/joao/2017/pgde/ggpmo/PGDEC/src/Parser.cpp
+
+1497644258 source:/home/joao/2017/pgde/ggpmo/PGDEC/src/PopulationReplacement.cpp
+	"PopulationReplacement.h"
+
+1525285531 source:/home/joao/2017/pgde/ggpmo/PGDEC/src/Search.cpp
+	"Search.h"
+	<vector>
+
+1497644258 source:/home/joao/2017/pgde/ggpmo/PGDEC/src/Selection.cpp
+	"Selection.h"
+
+1529079458 source:/home/joao/2017/pgde/ggpmo/PGDEC/src/SimpleIndividuo.cpp
+	"SimpleIndividuo.h"
+
+1497644258 source:/home/joao/2017/pgde/ggpmo/PGDEC/src/SimpleIndividuoBuilder.cpp
+	"SimpleIndividuoBuilder.h"
+
+1525286648 source:/home/joao/2017/pgde/ggpmo/PGDEC/src/SimpleMutation.cpp
+	"SimpleMutation.h"
+
+1512580875 source:/home/joao/2017/pgde/ggpmo/PGDEC/src/SimpleParser.cpp
+	"SimpleParser.h"
+
+1528236477 source:/home/joao/2017/pgde/ggpmo/PGDEC/src/SimpleReplace.cpp
+	"SimpleReplace.h"
+
+1528235132 source:/home/joao/2017/pgde/ggpmo/PGDEC/src/Subject.cpp
+	"Subject.h"
+
+1497644258 source:/home/joao/2017/pgde/ggpmo/PGDEC/src/TournamentSelection.cpp
+	"TournamentSelection.h"
+
+1502464280 source:/home/joao/2017/pgde/ggpmo/PGDEC/src/Tree.cpp
+	"Tree.h"
+
+1526499356 source:/home/joao/2017/pgde/ggpmo/PGDEC/src/SimpleCrossover.cpp
+	"SimpleCrossover.h"
+
+1510246983 source:/home/joao/2017/ToUp/PGDEC/inc/DifferencialEvolution.cpp
+	"DifferencialEvolution.h"
+
+1502837340 /home/joao/2017/ToUp/PGDEC/inc/DifferencialEvolution.h
+	<cmath>
+	"vector"
+	<time.h>
+	<ctime>
+	<iostream>
+	<fstream>
+	<algorithm>
+	"RK4LSIndividuo.h"
+	"Parser.h"
+	"SimpleIndividuo.h"
+
+1497644258 /home/joao/2017/ToUp/PGDEC/inc/RK4LSIndividuo.h
+	"Subject.h"
+
+1525803168 /home/joao/2017/ToUp/PGDEC/src/Subject.h
+	<iostream>
+	<vector>
+	"Tree.h"
+	<string>
+
+1525283795 /home/joao/2017/ToUp/PGDEC/src/Tree.h
+	"No.h"
+	"Configures.h"
+	<iostream>
+	<vector>
+	<tuple>
+
+1497645948 /home/joao/2017/ToUp/PGDEC/src/No.h
+	<iostream>
+	<string>
+	<vector>
+	<sstream>
+
+1510246936 /home/joao/2017/ToUp/PGDEC/src/Configures.h
+	<stdlib.h>
+	<time.h>
+	<omp.h>
+	"Grammar.h"
+
+1538069678 /home/joao/2017/ToUp/PGDEC/src/Grammar.h
+	<tuple>
+	<vector>
+	<string>
+	<sstream>
+	<fstream>
+	<algorithm>
+	"Database.h"
+	"No.h"
+	"Configures.h"
+
+1497644258 /home/joao/2017/ToUp/PGDEC/src/Database.h
+	<iostream>
+	<cstring>
+	<fstream>
+	<vector>
+	<cmath>
+	"Configures.h"
+
+1497644258 /home/joao/2017/ToUp/PGDEC/src/Parser.h
+	"Configures.h"
+	"Subject.h"
+	<string>
+
+1499364148 /home/joao/2017/ToUp/PGDEC/src/SimpleIndividuo.h
+	"Subject.h"
+
+1497644258 source:/home/joao/2017/ToUp/PGDEC/inc/LeastSquareIndividuo.cpp
+	"LeastSquareIndividuo.h"
+	"Tree.h"
+
+1497644258 /home/joao/2017/ToUp/PGDEC/inc/LeastSquareIndividuo.h
+	"Subject.h"
+
+1497644258 source:/home/joao/2017/ToUp/PGDEC/inc/LeastSquareIndividuoBuilder.cpp
+	"LeastSquareIndividuoBuilder.h"
+
+1497644258 /home/joao/2017/ToUp/PGDEC/inc/LeastSquareIndividuoBuilder.h
+	"IndividuoBuilder.h"
+	"LeastSquareIndividuo.h"
+
+1497644258 /home/joao/2017/ToUp/PGDEC/src/IndividuoBuilder.h
+	"Subject.h"
+	<string>
+
+1497644258 source:/home/joao/2017/ToUp/PGDEC/inc/LeastSquareParser.cpp
+	"LeastSquareParser.h"
+
+1497644258 /home/joao/2017/ToUp/PGDEC/inc/LeastSquareParser.h
+	"Configures.h"
+	"Parser.h"
+	"../inc/QRDecomposition.h"
+	<vector>
+	<stack>
+	<tuple>
+	<cmath>
+	"SimpleParser.h"
+	"LeastSquareIndividuo.h"
+
+1497644258 /home/joao/2017/ToUp/PGDEC/inc/QRDecomposition.h
+
+1508864644 /home/joao/2017/ToUp/PGDEC/src/SimpleParser.h
+	"Configures.h"
+	"Parser.h"
+	"SimpleIndividuo.h"
+	"DifferencialEvolution.h"
+	"EvolutionStrategie.h"
+	<vector>
+	<stack>
+	<tuple>
+	<cmath>
+
+1509972440 /home/joao/2017/ToUp/PGDEC/include/EvolutionStrategie.h
+	<cmath>
+	"vector"
+	<time.h>
+	<ctime>
+	<iostream>
+	<fstream>
+	<algorithm>
+	"RK4LSIndividuo.h"
+	"Parser.h"
+	"SimpleIndividuo.h"
+
+1497644258 source:/home/joao/2017/ToUp/PGDEC/inc/LSDerivadasParser.cpp
+	"LSDerivadasParser.h"
+
+1497644258 /home/joao/2017/ToUp/PGDEC/inc/LSDerivadasParser.h
+	"Configures.h"
+	"Parser.h"
+	"QRDecomposition.h"
+	<vector>
+	<stack>
+	<tuple>
+	<cmath>
+	"LeastSquareIndividuo.h"
+	"SimpleParser.h"
+
+1497644258 source:/home/joao/2017/ToUp/PGDEC/inc/ParserDerivadas.cpp
+	"ParserDerivadas.h"
+
+1497644258 /home/joao/2017/ToUp/PGDEC/inc/ParserDerivadas.h
+	"Configures.h"
+	"Parser.h"
+	<vector>
+	<stack>
+	<tuple>
+	<cmath>
+	"SimpleParser.h"
+
+1497644258 source:/home/joao/2017/ToUp/PGDEC/inc/QRDecomposition.cpp
+	"QRDecomposition.h"
+	<cmath>
+	<stdlib.h>
+	<string.h>
+	<iostream>
+	<memory.h>
+
+1497644258 source:/home/joao/2017/ToUp/PGDEC/inc/RK4AGParser.cpp
+	"RK4AGParser.h"
+
+1497644258 /home/joao/2017/ToUp/PGDEC/inc/RK4AGParser.h
+	"SimpleParser.h"
+	"RK4LSIndividuo.h"
+
+1497644258 source:/home/joao/2017/ToUp/PGDEC/inc/RK4LSDerivadasParser.cpp
+	"RK4LSDerivadasParser.h"
+
+1497644258 /home/joao/2017/ToUp/PGDEC/inc/RK4LSDerivadasParser.h
+	"Configures.h"
+	"Parser.h"
+	"QRDecomposition.h"
+	<vector>
+	<stack>
+	<tuple>
+	<cmath>
+	"RK4LSIndividuo.h"
+	"SimpleParser.h"
+
+1497644258 source:/home/joao/2017/ToUp/PGDEC/inc/RK4LSDParser.cpp
+	"RK4LSDParser.h"
+
+1497644258 /home/joao/2017/ToUp/PGDEC/inc/RK4LSDParser.h
+	"SimpleParser.h"
+	"RK4LSIndividuo.h"
+	"LeastSquareIndividuo.h"
+	"QRDecomposition.h"
+
+1497644258 source:/home/joao/2017/ToUp/PGDEC/inc/RK4LSIndividuo.cpp
+	"RK4LSIndividuo.h"
+
+1497644258 source:/home/joao/2017/ToUp/PGDEC/inc/RK4LSIndividuoBuilder.cpp
+	"RK4LSIndividuoBuilder.h"
+
+1497644258 /home/joao/2017/ToUp/PGDEC/inc/RK4LSIndividuoBuilder.h
+	"IndividuoBuilder.h"
+	"RK4LSIndividuo.h"
+
+1497644258 source:/home/joao/2017/ToUp/PGDEC/inc/RK4sParser.cpp
+	"RK4sParser.h"
+
+1497644258 /home/joao/2017/ToUp/PGDEC/inc/RK4sParser.h
+	"SimpleParser.h"
+	"RK4LSIndividuo.h"
+	"DifferencialEvolution.h"
+
+1497644258 source:/home/joao/2017/ToUp/PGDEC/src/Configures.cpp
+	"Configures.h"
+
+1497644258 source:/home/joao/2017/ToUp/PGDEC/src/Crossover.cpp
+	"Crossover.h"
+
+1497644258 /home/joao/2017/ToUp/PGDEC/src/Crossover.h
+	"Subject.h"
+
+1497644258 source:/home/joao/2017/ToUp/PGDEC/src/Database.cpp
+	"Database.h"
+
+1530040720 source:/home/joao/2017/ToUp/PGDEC/src/EvolutionStrategie.cpp
+	"EvolutionStrategie.h"
+
+1538069678 source:/home/joao/2017/ToUp/PGDEC/src/Grammar.cpp
+	"Grammar.h"
+	"Configures.h"
+
+1497644258 source:/home/joao/2017/ToUp/PGDEC/src/IndividuoBuilder.cpp
+	"IndividuoBuilder.h"
+
+1540314792 source:/home/joao/2017/ToUp/PGDEC/src/main.cpp
+	<iostream>
+	"Database.h"
+	"Grammar.h"
+	"No.h"
+	"Configures.h"
+	"Search.h"
+	"MultiSearch.h"
+	"Configures.h"
+	"SimpleParser.h"
+	"SimpleClassifierParser.h"
+	"../inc/ParserDerivadas.h"
+	"../inc/LeastSquareParser.h"
+	"../inc/LSDerivadasParser.h"
+	"IndividuoBuilder.h"
+	"LeastSquareIndividuoBuilder.h"
+	"../inc/RK4LSDerivadasParser.h"
+	"../inc/RK4LSIndividuoBuilder.h"
+	"Subject.h"
+	"RK4sParser.h"
+	"../inc/RK4AGParser.h"
+	"RK4LSDParser.h"
+	<sstream>
+
+1508518778 /home/joao/2017/ToUp/PGDEC/src/Search.h
+	"Subject.h"
+	"Grammar.h"
+	"Tree.h"
+	"Configures.h"
+	"Parser.h"
+	"SimpleParser.h"
+	<cmath>
+	<algorithm>
+	<exception>
+	"Selection.h"
+	"TournamentSelection.h"
+	"PopulationReplacement.h"
+	"SimpleReplace.h"
+	"IndividuoBuilder.h"
+	"SimpleIndividuoBuilder.h"
+	"DifferencialEvolution.h"
+	"EvolutionStrategie.h"
+	"Mutation.h"
+	"SimpleMutation.h"
+	"Crossover.h"
+	"SimpleCrossover.h"
+	<omp.h>
+
+1497644258 /home/joao/2017/ToUp/PGDEC/src/Selection.h
+	"Subject.h"
+
+1528828475 /home/joao/2017/ToUp/PGDEC/src/TournamentSelection.h
+	"Selection.h"
+	"Subject.h"
+
+1497644258 /home/joao/2017/ToUp/PGDEC/src/PopulationReplacement.h
+	"Subject.h"
+
+1497644258 /home/joao/2017/ToUp/PGDEC/src/SimpleReplace.h
+	"Subject.h"
+	"PopulationReplacement.h"
+	"Configures.h"
+	<iostream>
+	<algorithm>
+
+1497644258 /home/joao/2017/ToUp/PGDEC/src/SimpleIndividuoBuilder.h
+	"IndividuoBuilder.h"
+	"SimpleIndividuo.h"
+
+1497644258 /home/joao/2017/ToUp/PGDEC/src/Mutation.h
+	"Subject.h"
+
+1497644258 /home/joao/2017/ToUp/PGDEC/src/SimpleMutation.h
+	"Mutation.h"
+
+1497644258 /home/joao/2017/ToUp/PGDEC/src/SimpleCrossover.h
+	"Crossover.h"
+
+1536881300 /home/joao/2017/ToUp/PGDEC/include/MultiSearch.h
+	"Subject.h"
+	"Grammar.h"
+	"Tree.h"
+	"Configures.h"
+	"Parser.h"
+	"SimpleParser.h"
+	<cmath>
+	<algorithm>
+	<exception>
+	<fstream>
+	"Selection.h"
+	"TournamentSelection.h"
+	"PopulationReplacement.h"
+	"SimpleReplace.h"
+	"IndividuoBuilder.h"
+	"SimpleIndividuoBuilder.h"
+	"DifferencialEvolution.h"
+	"EvolutionStrategie.h"
+	"Mutation.h"
+	"SimpleMutation.h"
+	"Crossover.h"
+	"SimpleCrossover.h"
+	<omp.h>
+
+1497644258 source:/home/joao/2017/ToUp/PGDEC/src/Mutation.cpp
+	"Mutation.h"
+
+1497645942 source:/home/joao/2017/ToUp/PGDEC/src/No.cpp
+	"No.h"
+	<iostream>
+	<string>
+
+1497644258 source:/home/joao/2017/ToUp/PGDEC/src/Parser.cpp
+
+1497644258 source:/home/joao/2017/ToUp/PGDEC/src/PopulationReplacement.cpp
+	"PopulationReplacement.h"
+
+1525285531 source:/home/joao/2017/ToUp/PGDEC/src/Search.cpp
+	"Search.h"
+	<vector>
+
+1497644258 source:/home/joao/2017/ToUp/PGDEC/src/Selection.cpp
+	"Selection.h"
+
+1526499356 source:/home/joao/2017/ToUp/PGDEC/src/SimpleCrossover.cpp
+	"SimpleCrossover.h"
+
+1536881940 source:/home/joao/2017/ToUp/PGDEC/src/SimpleIndividuo.cpp
+	"SimpleIndividuo.h"
+
+1497644258 source:/home/joao/2017/ToUp/PGDEC/src/SimpleIndividuoBuilder.cpp
+	"SimpleIndividuoBuilder.h"
+
+1525286648 source:/home/joao/2017/ToUp/PGDEC/src/SimpleMutation.cpp
+	"SimpleMutation.h"
+
+1512580875 source:/home/joao/2017/ToUp/PGDEC/src/SimpleParser.cpp
+	"SimpleParser.h"
+
+1528236477 source:/home/joao/2017/ToUp/PGDEC/src/SimpleReplace.cpp
+	"SimpleReplace.h"
+
+1528235132 source:/home/joao/2017/ToUp/PGDEC/src/Subject.cpp
+	"Subject.h"
+
+1497644258 source:/home/joao/2017/ToUp/PGDEC/src/TournamentSelection.cpp
+	"TournamentSelection.h"
+
+1538068861 source:/home/joao/2017/ToUp/PGDEC/src/Tree.cpp
+	"Tree.h"
+
+1538075702 source:/home/joao/2017/ToUp/PGDEC/src/MultiSearch.cpp
+	"MultiSearch.h"
+	<vector>
+
+1538089816 source:/home/joao/2017/ToUp/PGDEC/src/SimpleClassifierParser.cpp
+	"SimpleClassifierParser.h"
+
+1537916992 /home/joao/2017/ToUp/PGDEC/src/SimpleClassifierParser.h
+	"Configures.h"
+	"Parser.h"
+	"SimpleIndividuo.h"
+	"DifferencialEvolution.h"
+	"EvolutionStrategie.h"
+	<vector>
+	<stack>
+	<tuple>
+	<cmath>
+
+1541558711 source:/home/joao/Documentos/tudo/PGDEC/inc/DifferencialEvolution.cpp
+	"DifferencialEvolution.h"
+
+1541596865 /home/joao/Documentos/tudo/PGDEC/inc/DifferencialEvolution.h
+	<cmath>
+	"vector"
+	<time.h>
+	<ctime>
+	<iostream>
+	<fstream>
+	<algorithm>
+	<random>
+	"RK4LSIndividuo.h"
+	"Parser.h"
+	"SimpleIndividuo.h"
+
+1541558711 /home/joao/Documentos/tudo/PGDEC/inc/RK4LSIndividuo.h
+	"Subject.h"
+
+1541558711 /home/joao/Documentos/tudo/PGDEC/src/Subject.h
+	<iostream>
+	<vector>
+	"Tree.h"
+	<string>
+
+1541558711 /home/joao/Documentos/tudo/PGDEC/src/Tree.h
+	"No.h"
+	"Configures.h"
+	<iostream>
+	<vector>
+	<tuple>
+
+1541558711 /home/joao/Documentos/tudo/PGDEC/src/No.h
+	<iostream>
+	<string>
+	<vector>
+	<sstream>
+
+1541558711 /home/joao/Documentos/tudo/PGDEC/src/Configures.h
+	<stdlib.h>
+	<time.h>
+	<omp.h>
+	"Grammar.h"
+
+1541558711 /home/joao/Documentos/tudo/PGDEC/src/Grammar.h
+	<tuple>
+	<vector>
+	<string>
+	<sstream>
+	<fstream>
+	<algorithm>
+	"Database.h"
+	"No.h"
+	"Configures.h"
+
+1541558711 /home/joao/Documentos/tudo/PGDEC/src/Database.h
+	<iostream>
+	<cstring>
+	<fstream>
+	<vector>
+	<cmath>
+	"Configures.h"
+
+1541558711 /home/joao/Documentos/tudo/PGDEC/src/Parser.h
+	"Configures.h"
+	"Subject.h"
+	<string>
+
+1541558711 /home/joao/Documentos/tudo/PGDEC/src/SimpleIndividuo.h
+	"Subject.h"
+
+1541558711 source:/home/joao/Documentos/tudo/PGDEC/inc/LeastSquareIndividuo.cpp
+	"LeastSquareIndividuo.h"
+	"Tree.h"
+
+1541558711 /home/joao/Documentos/tudo/PGDEC/inc/LeastSquareIndividuo.h
+	"Subject.h"
+
+1541558711 source:/home/joao/Documentos/tudo/PGDEC/inc/LeastSquareIndividuoBuilder.cpp
+	"LeastSquareIndividuoBuilder.h"
+
+1541558711 /home/joao/Documentos/tudo/PGDEC/inc/LeastSquareIndividuoBuilder.h
+	"IndividuoBuilder.h"
+	"LeastSquareIndividuo.h"
+
+1541558711 /home/joao/Documentos/tudo/PGDEC/src/IndividuoBuilder.h
+	"Subject.h"
+	<string>
+
+1541558711 source:/home/joao/Documentos/tudo/PGDEC/inc/LeastSquareParser.cpp
+	"LeastSquareParser.h"
+
+1541558711 /home/joao/Documentos/tudo/PGDEC/inc/LeastSquareParser.h
+	"Configures.h"
+	"Parser.h"
+	"../inc/QRDecomposition.h"
+	<vector>
+	<stack>
+	<tuple>
+	<cmath>
+	"SimpleParser.h"
+	"LeastSquareIndividuo.h"
+
+1541558711 /home/joao/Documentos/tudo/PGDEC/inc/QRDecomposition.h
+
+1541558711 /home/joao/Documentos/tudo/PGDEC/src/SimpleParser.h
+	"Configures.h"
+	"Parser.h"
+	"SimpleIndividuo.h"
+	"DifferencialEvolution.h"
+	"EvolutionStrategie.h"
+	<vector>
+	<stack>
+	<tuple>
+	<cmath>
+
+1541596903 /home/joao/Documentos/tudo/PGDEC/include/EvolutionStrategie.h
+	<cmath>
+	"vector"
+	<time.h>
+	<ctime>
+	<iostream>
+	<fstream>
+	<algorithm>
+	<random>
+	"RK4LSIndividuo.h"
+	"Parser.h"
+	"SimpleIndividuo.h"
+
+1541558711 source:/home/joao/Documentos/tudo/PGDEC/inc/LSDerivadasParser.cpp
+	"LSDerivadasParser.h"
+
+1541558711 /home/joao/Documentos/tudo/PGDEC/inc/LSDerivadasParser.h
+	"Configures.h"
+	"Parser.h"
+	"QRDecomposition.h"
+	<vector>
+	<stack>
+	<tuple>
+	<cmath>
+	"LeastSquareIndividuo.h"
+	"SimpleParser.h"
+
+1541558711 source:/home/joao/Documentos/tudo/PGDEC/inc/ParserDerivadas.cpp
+	"ParserDerivadas.h"
+
+1541558711 /home/joao/Documentos/tudo/PGDEC/inc/ParserDerivadas.h
+	"Configures.h"
+	"Parser.h"
+	<vector>
+	<stack>
+	<tuple>
+	<cmath>
+	"SimpleParser.h"
+
+1541558711 source:/home/joao/Documentos/tudo/PGDEC/inc/QRDecomposition.cpp
+	"QRDecomposition.h"
+	<cmath>
+	<stdlib.h>
+	<string.h>
+	<iostream>
+	<memory.h>
+
+1541558711 source:/home/joao/Documentos/tudo/PGDEC/inc/RK4AGParser.cpp
+	"RK4AGParser.h"
+
+1541558711 /home/joao/Documentos/tudo/PGDEC/inc/RK4AGParser.h
+	"SimpleParser.h"
+	"RK4LSIndividuo.h"
+
+1541558711 source:/home/joao/Documentos/tudo/PGDEC/inc/RK4LSDerivadasParser.cpp
+	"RK4LSDerivadasParser.h"
+
+1541558711 /home/joao/Documentos/tudo/PGDEC/inc/RK4LSDerivadasParser.h
+	"Configures.h"
+	"Parser.h"
+	"QRDecomposition.h"
+	<vector>
+	<stack>
+	<tuple>
+	<cmath>
+	"RK4LSIndividuo.h"
+	"SimpleParser.h"
+
+1541558711 source:/home/joao/Documentos/tudo/PGDEC/inc/RK4LSDParser.cpp
+	"RK4LSDParser.h"
+
+1541558711 /home/joao/Documentos/tudo/PGDEC/inc/RK4LSDParser.h
+	"SimpleParser.h"
+	"RK4LSIndividuo.h"
+	"LeastSquareIndividuo.h"
+	"QRDecomposition.h"
+
+1541558711 source:/home/joao/Documentos/tudo/PGDEC/inc/RK4LSIndividuo.cpp
+	"RK4LSIndividuo.h"
+
+1541558711 source:/home/joao/Documentos/tudo/PGDEC/inc/RK4LSIndividuoBuilder.cpp
+	"RK4LSIndividuoBuilder.h"
+
+1541558711 /home/joao/Documentos/tudo/PGDEC/inc/RK4LSIndividuoBuilder.h
+	"IndividuoBuilder.h"
+	"RK4LSIndividuo.h"
+
+1541558711 source:/home/joao/Documentos/tudo/PGDEC/inc/RK4sParser.cpp
+	"RK4sParser.h"
+
+1541558711 /home/joao/Documentos/tudo/PGDEC/inc/RK4sParser.h
+	"SimpleParser.h"
+	"RK4LSIndividuo.h"
+	"DifferencialEvolution.h"
+
+1541558711 source:/home/joao/Documentos/tudo/PGDEC/src/Configures.cpp
+	"Configures.h"
+
+1541558711 source:/home/joao/Documentos/tudo/PGDEC/src/Crossover.cpp
+	"Crossover.h"
+
+1541558711 /home/joao/Documentos/tudo/PGDEC/src/Crossover.h
+	"Subject.h"
+
+1541558711 source:/home/joao/Documentos/tudo/PGDEC/src/Database.cpp
+	"Database.h"
+
+1541558711 source:/home/joao/Documentos/tudo/PGDEC/src/EvolutionStrategie.cpp
+	"EvolutionStrategie.h"
+
+1541558711 source:/home/joao/Documentos/tudo/PGDEC/src/Grammar.cpp
+	"Grammar.h"
+	"Configures.h"
+
+1541558711 source:/home/joao/Documentos/tudo/PGDEC/src/IndividuoBuilder.cpp
+	"IndividuoBuilder.h"
+
+1541597656 source:/home/joao/Documentos/tudo/PGDEC/src/main.cpp
+	<iostream>
+	"Database.h"
+	"Grammar.h"
+	"No.h"
+	"Configures.h"
+	"Search.h"
+	"MultiSearch.h"
+	"Configures.h"
+	"SimpleParser.h"
+	"SimpleClassifierParser.h"
+	"../inc/ParserDerivadas.h"
+	"../inc/LeastSquareParser.h"
+	"../inc/LSDerivadasParser.h"
+	"IndividuoBuilder.h"
+	"LeastSquareIndividuoBuilder.h"
+	"../inc/RK4LSDerivadasParser.h"
+	"../inc/RK4LSIndividuoBuilder.h"
+	"Subject.h"
+	"RK4sParser.h"
+	"../inc/RK4AGParser.h"
+	"RK4LSDParser.h"
+	<sstream>
+
+1541558711 /home/joao/Documentos/tudo/PGDEC/src/Search.h
+	"Subject.h"
+	"Grammar.h"
+	"Tree.h"
+	"Configures.h"
+	"Parser.h"
+	"SimpleParser.h"
+	<cmath>
+	<algorithm>
+	<exception>
+	"Selection.h"
+	"TournamentSelection.h"
+	"PopulationReplacement.h"
+	"SimpleReplace.h"
+	"IndividuoBuilder.h"
+	"SimpleIndividuoBuilder.h"
+	"DifferencialEvolution.h"
+	"EvolutionStrategie.h"
+	"Mutation.h"
+	"SimpleMutation.h"
+	"Crossover.h"
+	"SimpleCrossover.h"
+	<omp.h>
+
+1541558711 /home/joao/Documentos/tudo/PGDEC/src/Selection.h
+	"Subject.h"
+
+1541558711 /home/joao/Documentos/tudo/PGDEC/src/TournamentSelection.h
+	"Selection.h"
+	"Subject.h"
+
+1541558711 /home/joao/Documentos/tudo/PGDEC/src/PopulationReplacement.h
+	"Subject.h"
+
+1541558711 /home/joao/Documentos/tudo/PGDEC/src/SimpleReplace.h
+	"Subject.h"
+	"PopulationReplacement.h"
+	"Configures.h"
+	<iostream>
+	<algorithm>
+
+1541558711 /home/joao/Documentos/tudo/PGDEC/src/SimpleIndividuoBuilder.h
+	"IndividuoBuilder.h"
+	"SimpleIndividuo.h"
+
+1541558711 /home/joao/Documentos/tudo/PGDEC/src/Mutation.h
+	"Subject.h"
+
+1541558711 /home/joao/Documentos/tudo/PGDEC/src/SimpleMutation.h
+	"Mutation.h"
+
+1541558711 /home/joao/Documentos/tudo/PGDEC/src/SimpleCrossover.h
+	"Crossover.h"
+
+1541558711 /home/joao/Documentos/tudo/PGDEC/include/MultiSearch.h
+	"Subject.h"
+	"Grammar.h"
+	"Tree.h"
+	"Configures.h"
+	"Parser.h"
+	"SimpleParser.h"
+	<cmath>
+	<algorithm>
+	<exception>
+	<fstream>
+	"Selection.h"
+	"TournamentSelection.h"
+	"PopulationReplacement.h"
+	"SimpleReplace.h"
+	"IndividuoBuilder.h"
+	"SimpleIndividuoBuilder.h"
+	"DifferencialEvolution.h"
+	"EvolutionStrategie.h"
+	"Mutation.h"
+	"SimpleMutation.h"
+	"Crossover.h"
+	"SimpleCrossover.h"
+	<omp.h>
+
+1541558711 /home/joao/Documentos/tudo/PGDEC/src/SimpleClassifierParser.h
+	"Configures.h"
+	"Parser.h"
+	"SimpleIndividuo.h"
+	"DifferencialEvolution.h"
+	"EvolutionStrategie.h"
+	<vector>
+	<stack>
+	<tuple>
+	<cmath>
+
+1541558711 source:/home/joao/Documentos/tudo/PGDEC/src/MultiSearch.cpp
+	"MultiSearch.h"
+	<vector>
+
+1541558711 source:/home/joao/Documentos/tudo/PGDEC/src/Mutation.cpp
+	"Mutation.h"
+
+1541558711 source:/home/joao/Documentos/tudo/PGDEC/src/No.cpp
+	"No.h"
+	<iostream>
+	<string>
+
+1541558711 source:/home/joao/Documentos/tudo/PGDEC/src/Parser.cpp
+
+1541558711 source:/home/joao/Documentos/tudo/PGDEC/src/PopulationReplacement.cpp
+	"PopulationReplacement.h"
+
+1541558711 source:/home/joao/Documentos/tudo/PGDEC/src/Search.cpp
+	"Search.h"
+	<vector>
+
+1541558711 source:/home/joao/Documentos/tudo/PGDEC/src/Selection.cpp
+	"Selection.h"
+
+1541558711 source:/home/joao/Documentos/tudo/PGDEC/src/SimpleClassifierParser.cpp
+	"SimpleClassifierParser.h"
+
+1541558711 source:/home/joao/Documentos/tudo/PGDEC/src/SimpleCrossover.cpp
+	"SimpleCrossover.h"
+
+1541558711 source:/home/joao/Documentos/tudo/PGDEC/src/SimpleIndividuo.cpp
+	"SimpleIndividuo.h"
+
+1541558711 source:/home/joao/Documentos/tudo/PGDEC/src/SimpleIndividuoBuilder.cpp
+	"SimpleIndividuoBuilder.h"
+
+1541558711 source:/home/joao/Documentos/tudo/PGDEC/src/SimpleMutation.cpp
+	"SimpleMutation.h"
+
+1541558711 source:/home/joao/Documentos/tudo/PGDEC/src/SimpleParser.cpp
+	"SimpleParser.h"
+
+1541558711 source:/home/joao/Documentos/tudo/PGDEC/src/SimpleReplace.cpp
+	"SimpleReplace.h"
+
+1541558711 source:/home/joao/Documentos/tudo/PGDEC/src/Subject.cpp
+	"Subject.h"
+
+1541558711 source:/home/joao/Documentos/tudo/PGDEC/src/TournamentSelection.cpp
+	"TournamentSelection.h"
+
+1541558711 source:/home/joao/Documentos/tudo/PGDEC/src/Tree.cpp
+	"Tree.h"
+
+1544015767 source:/home/joao/tudo/PGDEC/inc/DifferencialEvolution.cpp
+	"DifferencialEvolution.h"
+
+1544015767 /home/joao/tudo/PGDEC/inc/DifferencialEvolution.h
+	<cmath>
+	"vector"
+	<time.h>
+	<ctime>
+	<iostream>
+	<fstream>
+	<algorithm>
+	<random>
+	"RK4LSIndividuo.h"
+	"Parser.h"
+	"SimpleIndividuo.h"
+
+1544015767 /home/joao/tudo/PGDEC/inc/RK4LSIndividuo.h
+	"Subject.h"
+
+1544015767 /home/joao/tudo/PGDEC/src/Subject.h
+	<iostream>
+	<vector>
+	"Tree.h"
+	<string>
+
+1544015767 /home/joao/tudo/PGDEC/src/Tree.h
+	"No.h"
+	"Configures.h"
+	<iostream>
+	<vector>
+	<tuple>
+
+1544015767 /home/joao/tudo/PGDEC/src/No.h
+	<iostream>
+	<string>
+	<vector>
+	<sstream>
+
+1544015767 /home/joao/tudo/PGDEC/src/Configures.h
+	<stdlib.h>
+	<time.h>
+	<omp.h>
+	"Grammar.h"
+
+1544015767 /home/joao/tudo/PGDEC/src/Grammar.h
+	<tuple>
+	<vector>
+	<string>
+	<sstream>
+	<fstream>
+	<algorithm>
+	"Database.h"
+	"No.h"
+	"Configures.h"
+
+1544015767 /home/joao/tudo/PGDEC/src/Database.h
+	<iostream>
+	<cstring>
+	<fstream>
+	<vector>
+	<cmath>
+	"Configures.h"
+
+1544015767 /home/joao/tudo/PGDEC/src/Parser.h
+	"Configures.h"
+	"Subject.h"
+	<string>
+
+1544015767 /home/joao/tudo/PGDEC/src/SimpleIndividuo.h
+	"Subject.h"
+
+1544015767 source:/home/joao/tudo/PGDEC/inc/LeastSquareIndividuo.cpp
+	"LeastSquareIndividuo.h"
+	"Tree.h"
+
+1544015767 /home/joao/tudo/PGDEC/inc/LeastSquareIndividuo.h
+	"Subject.h"
+
+1544015767 source:/home/joao/tudo/PGDEC/inc/LeastSquareIndividuoBuilder.cpp
+	"LeastSquareIndividuoBuilder.h"
+
+1544015767 /home/joao/tudo/PGDEC/inc/LeastSquareIndividuoBuilder.h
+	"IndividuoBuilder.h"
+	"LeastSquareIndividuo.h"
+
+1544015767 /home/joao/tudo/PGDEC/src/IndividuoBuilder.h
+	"Subject.h"
+	<string>
+
+1544015767 source:/home/joao/tudo/PGDEC/inc/LeastSquareParser.cpp
+	"LeastSquareParser.h"
+
+1544015767 /home/joao/tudo/PGDEC/inc/LeastSquareParser.h
+	"Configures.h"
+	"Parser.h"
+	"../inc/QRDecomposition.h"
+	<vector>
+	<stack>
+	<tuple>
+	<cmath>
+	"SimpleParser.h"
+	"LeastSquareIndividuo.h"
+
+1544015767 /home/joao/tudo/PGDEC/inc/QRDecomposition.h
+
+1544015767 /home/joao/tudo/PGDEC/src/SimpleParser.h
+	"Configures.h"
+	"Parser.h"
+	"SimpleIndividuo.h"
+	"DifferencialEvolution.h"
+	"EvolutionStrategie.h"
+	<vector>
+	<stack>
+	<tuple>
+	<cmath>
+
+1544015767 /home/joao/tudo/PGDEC/include/EvolutionStrategie.h
+	<cmath>
+	"vector"
+	<time.h>
+	<ctime>
+	<iostream>
+	<fstream>
+	<algorithm>
+	<random>
+	"RK4LSIndividuo.h"
+	"Parser.h"
+	"SimpleIndividuo.h"
+
+1544015767 source:/home/joao/tudo/PGDEC/inc/LSDerivadasParser.cpp
+	"LSDerivadasParser.h"
+
+1544015767 /home/joao/tudo/PGDEC/inc/LSDerivadasParser.h
+	"Configures.h"
+	"Parser.h"
+	"QRDecomposition.h"
+	<vector>
+	<stack>
+	<tuple>
+	<cmath>
+	"LeastSquareIndividuo.h"
+	"SimpleParser.h"
+
+1544015767 source:/home/joao/tudo/PGDEC/inc/ParserDerivadas.cpp
+	"ParserDerivadas.h"
+
+1544015767 /home/joao/tudo/PGDEC/inc/ParserDerivadas.h
+	"Configures.h"
+	"Parser.h"
+	<vector>
+	<stack>
+	<tuple>
+	<cmath>
+	"SimpleParser.h"
+
+1544015767 source:/home/joao/tudo/PGDEC/inc/QRDecomposition.cpp
+	"QRDecomposition.h"
+	<cmath>
+	<stdlib.h>
+	<string.h>
+	<iostream>
+	<memory.h>
+
+1544015767 source:/home/joao/tudo/PGDEC/inc/RK4AGParser.cpp
+	"RK4AGParser.h"
+
+1544015767 /home/joao/tudo/PGDEC/inc/RK4AGParser.h
+	"SimpleParser.h"
+	"RK4LSIndividuo.h"
+
+1544015767 source:/home/joao/tudo/PGDEC/inc/RK4LSDerivadasParser.cpp
+	"RK4LSDerivadasParser.h"
+
+1544015767 /home/joao/tudo/PGDEC/inc/RK4LSDerivadasParser.h
+	"Configures.h"
+	"Parser.h"
+	"QRDecomposition.h"
+	<vector>
+	<stack>
+	<tuple>
+	<cmath>
+	"RK4LSIndividuo.h"
+	"SimpleParser.h"
+
+1544015767 source:/home/joao/tudo/PGDEC/inc/RK4LSDParser.cpp
+	"RK4LSDParser.h"
+
+1544015767 /home/joao/tudo/PGDEC/inc/RK4LSDParser.h
+	"SimpleParser.h"
+	"RK4LSIndividuo.h"
+	"LeastSquareIndividuo.h"
+	"QRDecomposition.h"
+
+1544015767 source:/home/joao/tudo/PGDEC/inc/RK4LSIndividuo.cpp
+	"RK4LSIndividuo.h"
+
+1544015767 source:/home/joao/tudo/PGDEC/inc/RK4LSIndividuoBuilder.cpp
+	"RK4LSIndividuoBuilder.h"
+
+1544015767 /home/joao/tudo/PGDEC/inc/RK4LSIndividuoBuilder.h
+	"IndividuoBuilder.h"
+	"RK4LSIndividuo.h"
+
+1544015767 source:/home/joao/tudo/PGDEC/inc/RK4sParser.cpp
+	"RK4sParser.h"
+
+1544015767 /home/joao/tudo/PGDEC/inc/RK4sParser.h
+	"SimpleParser.h"
+	"RK4LSIndividuo.h"
+	"DifferencialEvolution.h"
+
+1544015767 source:/home/joao/tudo/PGDEC/src/Configures.cpp
+	"Configures.h"
+
+1544015767 source:/home/joao/tudo/PGDEC/src/Crossover.cpp
+	"Crossover.h"
+
+1544015767 /home/joao/tudo/PGDEC/src/Crossover.h
+	"Subject.h"
+
+1544015767 source:/home/joao/tudo/PGDEC/src/Database.cpp
+	"Database.h"
+
+1544015767 source:/home/joao/tudo/PGDEC/src/EvolutionStrategie.cpp
+	"EvolutionStrategie.h"
+
+1544015767 source:/home/joao/tudo/PGDEC/src/Grammar.cpp
+	"Grammar.h"
+	"Configures.h"
+
+1544015767 source:/home/joao/tudo/PGDEC/src/IndividuoBuilder.cpp
+	"IndividuoBuilder.h"
+
+1544016914 source:/home/joao/tudo/PGDEC/src/main.cpp
+	<iostream>
+	"Database.h"
+	"Grammar.h"
+	"No.h"
+	"Configures.h"
+	"Search.h"
+	"MultiSearch.h"
+	"Configures.h"
+	"SimpleParser.h"
+	"SimpleClassifierParser.h"
+	"../inc/ParserDerivadas.h"
+	"../inc/LeastSquareParser.h"
+	"../inc/LSDerivadasParser.h"
+	"IndividuoBuilder.h"
+	"LeastSquareIndividuoBuilder.h"
+	"../inc/RK4LSDerivadasParser.h"
+	"../inc/RK4LSIndividuoBuilder.h"
+	"Subject.h"
+	"RK4sParser.h"
+	"../inc/RK4AGParser.h"
+	"RK4LSDParser.h"
+	<sstream>
+
+1544015767 /home/joao/tudo/PGDEC/src/Search.h
+	"Subject.h"
+	"Grammar.h"
+	"Tree.h"
+	"Configures.h"
+	"Parser.h"
+	"SimpleParser.h"
+	<cmath>
+	<algorithm>
+	<exception>
+	"Selection.h"
+	"TournamentSelection.h"
+	"PopulationReplacement.h"
+	"SimpleReplace.h"
+	"IndividuoBuilder.h"
+	"SimpleIndividuoBuilder.h"
+	"DifferencialEvolution.h"
+	"EvolutionStrategie.h"
+	"Mutation.h"
+	"SimpleMutation.h"
+	"Crossover.h"
+	"SimpleCrossover.h"
+	<omp.h>
+
+1544015767 /home/joao/tudo/PGDEC/src/Selection.h
+	"Subject.h"
+
+1544015767 /home/joao/tudo/PGDEC/src/TournamentSelection.h
+	"Selection.h"
+	"Subject.h"
+
+1544015767 /home/joao/tudo/PGDEC/src/PopulationReplacement.h
+	"Subject.h"
+
+1544015767 /home/joao/tudo/PGDEC/src/SimpleReplace.h
+	"Subject.h"
+	"PopulationReplacement.h"
+	"Configures.h"
+	<iostream>
+	<algorithm>
+
+1544015767 /home/joao/tudo/PGDEC/src/SimpleIndividuoBuilder.h
+	"IndividuoBuilder.h"
+	"SimpleIndividuo.h"
+
+1544015767 /home/joao/tudo/PGDEC/src/Mutation.h
+	"Subject.h"
+
+1544015767 /home/joao/tudo/PGDEC/src/SimpleMutation.h
+	"Mutation.h"
+
+1544015767 /home/joao/tudo/PGDEC/src/SimpleCrossover.h
+	"Crossover.h"
+
+1544679746 /home/joao/tudo/PGDEC/include/MultiSearch.h
+	"Subject.h"
+	"Grammar.h"
+	"Tree.h"
+	"Configures.h"
+	"Parser.h"
+	"SimpleParser.h"
+	<cmath>
+	<algorithm>
+	<exception>
+	<fstream>
+	"Selection.h"
+	"TournamentSelection.h"
+	"PopulationReplacement.h"
+	"SimpleReplace.h"
+	"IndividuoBuilder.h"
+	"SimpleIndividuoBuilder.h"
+	"DifferencialEvolution.h"
+	"EvolutionStrategie.h"
+	"Mutation.h"
+	"SimpleMutation.h"
+	"Crossover.h"
+	"SimpleCrossover.h"
+	<omp.h>
+
+1544015767 /home/joao/tudo/PGDEC/src/SimpleClassifierParser.h
+	"Configures.h"
+	"Parser.h"
+	"SimpleIndividuo.h"
+	"DifferencialEvolution.h"
+	"EvolutionStrategie.h"
+	<vector>
+	<stack>
+	<tuple>
+	<cmath>
+
+1544679798 source:/home/joao/tudo/PGDEC/src/MultiSearch.cpp
+	"MultiSearch.h"
+	<vector>
+
+1544015767 source:/home/joao/tudo/PGDEC/src/Mutation.cpp
+	"Mutation.h"
+
+1544015767 source:/home/joao/tudo/PGDEC/src/No.cpp
+	"No.h"
+	<iostream>
+	<string>
+
+1544015767 source:/home/joao/tudo/PGDEC/src/Parser.cpp
+
+1544015767 source:/home/joao/tudo/PGDEC/src/PopulationReplacement.cpp
+	"PopulationReplacement.h"
+
+1544017068 source:/home/joao/tudo/PGDEC/src/Search.cpp
+	"Search.h"
+	<vector>
+
+1544015767 source:/home/joao/tudo/PGDEC/src/Selection.cpp
+	"Selection.h"
+
+1544015767 source:/home/joao/tudo/PGDEC/src/SimpleClassifierParser.cpp
+	"SimpleClassifierParser.h"
+
+1544015767 source:/home/joao/tudo/PGDEC/src/SimpleCrossover.cpp
+	"SimpleCrossover.h"
+
+1544015767 source:/home/joao/tudo/PGDEC/src/SimpleIndividuo.cpp
+	"SimpleIndividuo.h"
+
+1544015767 source:/home/joao/tudo/PGDEC/src/SimpleIndividuoBuilder.cpp
+	"SimpleIndividuoBuilder.h"
+
+1544015767 source:/home/joao/tudo/PGDEC/src/SimpleMutation.cpp
+	"SimpleMutation.h"
+
+1544015767 source:/home/joao/tudo/PGDEC/src/SimpleParser.cpp
+	"SimpleParser.h"
+
+1544015767 source:/home/joao/tudo/PGDEC/src/SimpleReplace.cpp
+	"SimpleReplace.h"
+
+1544015767 source:/home/joao/tudo/PGDEC/src/Subject.cpp
+	"Subject.h"
+
+1544015767 source:/home/joao/tudo/PGDEC/src/TournamentSelection.cpp
+	"TournamentSelection.h"
+
+1544015767 source:/home/joao/tudo/PGDEC/src/Tree.cpp
+	"Tree.h"
+
+1544723546 source:/home/joao/Projects/PGDEC/inc/DifferencialEvolution.cpp
+	"DifferencialEvolution.h"
+
+1544723546 /home/joao/Projects/PGDEC/inc/DifferencialEvolution.h
+	<cmath>
+	"vector"
+	<time.h>
+	<ctime>
+	<iostream>
+	<fstream>
+	<algorithm>
+	<random>
+	"RK4LSIndividuo.h"
+	"Parser.h"
+	"SimpleIndividuo.h"
+
+1544723546 /home/joao/Projects/PGDEC/inc/RK4LSIndividuo.h
+	"Subject.h"
+
+1544723546 /home/joao/Projects/PGDEC/src/Subject.h
+	<iostream>
+	<vector>
+	"Tree.h"
+	<string>
+
+1544723546 /home/joao/Projects/PGDEC/src/Tree.h
+	"No.h"
+	"Configures.h"
+	<iostream>
+	<vector>
+	<tuple>
+
+1544723546 /home/joao/Projects/PGDEC/src/No.h
+	<iostream>
+	<string>
+	<vector>
+	<sstream>
+
+1614364449 /home/joao/Projects/PGDEC/src/Configures.h
+	<stdlib.h>
+	<time.h>
+	<omp.h>
+	<string>
+	"Grammar.h"
+
+1544723546 /home/joao/Projects/PGDEC/src/Grammar.h
+	<tuple>
+	<vector>
+	<string>
+	<sstream>
+	<fstream>
+	<algorithm>
+	"Database.h"
+	"No.h"
+	"Configures.h"
+
+1544723546 /home/joao/Projects/PGDEC/src/Database.h
+	<iostream>
+	<cstring>
+	<fstream>
+	<vector>
+	<cmath>
+	"Configures.h"
+
+1544723546 /home/joao/Projects/PGDEC/src/Parser.h
+	"Configures.h"
+	"Subject.h"
+	<string>
+
+1544723546 /home/joao/Projects/PGDEC/src/SimpleIndividuo.h
+	"Subject.h"
+
+1544723546 source:/home/joao/Projects/PGDEC/inc/LeastSquareIndividuo.cpp
+	"LeastSquareIndividuo.h"
+	"Tree.h"
+
+1544723546 /home/joao/Projects/PGDEC/inc/LeastSquareIndividuo.h
+	"Subject.h"
+
+1544723546 source:/home/joao/Projects/PGDEC/inc/LeastSquareIndividuoBuilder.cpp
+	"LeastSquareIndividuoBuilder.h"
+
+1544723546 /home/joao/Projects/PGDEC/inc/LeastSquareIndividuoBuilder.h
+	"IndividuoBuilder.h"
+	"LeastSquareIndividuo.h"
+
+1544723546 /home/joao/Projects/PGDEC/src/IndividuoBuilder.h
+	"Subject.h"
+	<string>
+
+1544723546 source:/home/joao/Projects/PGDEC/inc/LeastSquareParser.cpp
+	"LeastSquareParser.h"
+
+1544723546 /home/joao/Projects/PGDEC/inc/LeastSquareParser.h
+	"Configures.h"
+	"Parser.h"
+	"../inc/QRDecomposition.h"
+	<vector>
+	<stack>
+	<tuple>
+	<cmath>
+	"SimpleParser.h"
+	"LeastSquareIndividuo.h"
+
+1544723546 /home/joao/Projects/PGDEC/inc/QRDecomposition.h
+
+1544723546 /home/joao/Projects/PGDEC/src/SimpleParser.h
+	"Configures.h"
+	"Parser.h"
+	"SimpleIndividuo.h"
+	"DifferencialEvolution.h"
+	"EvolutionStrategie.h"
+	<vector>
+	<stack>
+	<tuple>
+	<cmath>
+
+1544723546 /home/joao/Projects/PGDEC/include/EvolutionStrategie.h
+	<cmath>
+	"vector"
+	<time.h>
+	<ctime>
+	<iostream>
+	<fstream>
+	<algorithm>
+	<random>
+	"RK4LSIndividuo.h"
+	"Parser.h"
+	"SimpleIndividuo.h"
+
+1544723546 source:/home/joao/Projects/PGDEC/inc/LSDerivadasParser.cpp
+	"LSDerivadasParser.h"
+
+1544723546 /home/joao/Projects/PGDEC/inc/LSDerivadasParser.h
+	"Configures.h"
+	"Parser.h"
+	"QRDecomposition.h"
+	<vector>
+	<stack>
+	<tuple>
+	<cmath>
+	"LeastSquareIndividuo.h"
+	"SimpleParser.h"
+
+1544723546 source:/home/joao/Projects/PGDEC/inc/ParserDerivadas.cpp
+	"ParserDerivadas.h"
+
+1544723546 /home/joao/Projects/PGDEC/inc/ParserDerivadas.h
+	"Configures.h"
+	"Parser.h"
+	<vector>
+	<stack>
+	<tuple>
+	<cmath>
+	"SimpleParser.h"
+
+1544723546 source:/home/joao/Projects/PGDEC/inc/QRDecomposition.cpp
+	"QRDecomposition.h"
+	<cmath>
+	<stdlib.h>
+	<string.h>
+	<iostream>
+	<memory.h>
+
+1544723546 source:/home/joao/Projects/PGDEC/inc/RK4AGParser.cpp
+	"RK4AGParser.h"
+
+1544723546 /home/joao/Projects/PGDEC/inc/RK4AGParser.h
+	"SimpleParser.h"
+	"RK4LSIndividuo.h"
+
+1544723546 source:/home/joao/Projects/PGDEC/inc/RK4LSDerivadasParser.cpp
+	"RK4LSDerivadasParser.h"
+
+1544723546 /home/joao/Projects/PGDEC/inc/RK4LSDerivadasParser.h
+	"Configures.h"
+	"Parser.h"
+	"QRDecomposition.h"
+	<vector>
+	<stack>
+	<tuple>
+	<cmath>
+	"RK4LSIndividuo.h"
+	"SimpleParser.h"
+
+1544723546 source:/home/joao/Projects/PGDEC/inc/RK4LSDParser.cpp
+	"RK4LSDParser.h"
+
+1544723546 /home/joao/Projects/PGDEC/inc/RK4LSDParser.h
+	"SimpleParser.h"
+	"RK4LSIndividuo.h"
+	"LeastSquareIndividuo.h"
+	"QRDecomposition.h"
+
+1544723546 source:/home/joao/Projects/PGDEC/inc/RK4LSIndividuo.cpp
+	"RK4LSIndividuo.h"
+
+1544723546 source:/home/joao/Projects/PGDEC/inc/RK4LSIndividuoBuilder.cpp
+	"RK4LSIndividuoBuilder.h"
+
+1544723546 /home/joao/Projects/PGDEC/inc/RK4LSIndividuoBuilder.h
+	"IndividuoBuilder.h"
+	"RK4LSIndividuo.h"
+
+1544723546 source:/home/joao/Projects/PGDEC/inc/RK4sParser.cpp
+	"RK4sParser.h"
+
+1544723546 /home/joao/Projects/PGDEC/inc/RK4sParser.h
+	"SimpleParser.h"
+	"RK4LSIndividuo.h"
+	"DifferencialEvolution.h"
+
+1544723546 source:/home/joao/Projects/PGDEC/src/Configures.cpp
+	"Configures.h"
+
+1544723546 source:/home/joao/Projects/PGDEC/src/Crossover.cpp
+	"Crossover.h"
+
+1544723546 /home/joao/Projects/PGDEC/src/Crossover.h
+	"Subject.h"
+
+1544723546 source:/home/joao/Projects/PGDEC/src/Database.cpp
+	"Database.h"
+
+1544723546 source:/home/joao/Projects/PGDEC/src/EvolutionStrategie.cpp
+	"EvolutionStrategie.h"
+
+1544723546 source:/home/joao/Projects/PGDEC/src/Grammar.cpp
+	"Grammar.h"
+	"Configures.h"
+
+1544723546 source:/home/joao/Projects/PGDEC/src/IndividuoBuilder.cpp
+	"IndividuoBuilder.h"
+
+1614548553 source:/home/joao/Projects/PGDEC/src/main.cpp
+	<iostream>
+	"Database.h"
+	"Grammar.h"
+	"No.h"
+	"Configures.h"
+	"Search.h"
+	"MultiSearch.h"
+	"Configures.h"
+	"SimpleParser.h"
+	"SimpleFunctionalEquationsParser.h"
+	"SimpleClassifierParser.h"
+	"AdolfoClassifierParser.h"
+	"../inc/ParserDerivadas.h"
+	"../inc/LeastSquareParser.h"
+	"../inc/LSDerivadasParser.h"
+	"IndividuoBuilder.h"
+	"LeastSquareIndividuoBuilder.h"
+	"../inc/RK4LSDerivadasParser.h"
+	"../inc/RK4LSIndividuoBuilder.h"
+	"Subject.h"
+	"RK4sParser.h"
+	"../inc/RK4AGParser.h"
+	"RK4LSDParser.h"
+	<sstream>
+
+1599233716 /home/joao/Projects/PGDEC/src/Search.h
+	"Subject.h"
+	"Grammar.h"
+	"Tree.h"
+	"Configures.h"
+	"Parser.h"
+	"SimpleParser.h"
+	<cmath>
+	<algorithm>
+	<exception>
+	"Selection.h"
+	"TournamentSelection.h"
+	"PopulationReplacement.h"
+	"SimpleReplace.h"
+	"IndividuoBuilder.h"
+	"SimpleIndividuoBuilder.h"
+	"DifferencialEvolution.h"
+	"EvolutionStrategie.h"
+	"Mutation.h"
+	"SimpleMutation.h"
+	"Crossover.h"
+	"SimpleCrossover.h"
+	<omp.h>
+	<cstdio>
+	<iostream>
+
+1544723546 /home/joao/Projects/PGDEC/src/Selection.h
+	"Subject.h"
+
+1544723546 /home/joao/Projects/PGDEC/src/TournamentSelection.h
+	"Selection.h"
+	"Subject.h"
+
+1544723546 /home/joao/Projects/PGDEC/src/PopulationReplacement.h
+	"Subject.h"
+
+1544723546 /home/joao/Projects/PGDEC/src/SimpleReplace.h
+	"Subject.h"
+	"PopulationReplacement.h"
+	"Configures.h"
+	<iostream>
+	<algorithm>
+
+1544723546 /home/joao/Projects/PGDEC/src/SimpleIndividuoBuilder.h
+	"IndividuoBuilder.h"
+	"SimpleIndividuo.h"
+
+1544723546 /home/joao/Projects/PGDEC/src/Mutation.h
+	"Subject.h"
+
+1544723546 /home/joao/Projects/PGDEC/src/SimpleMutation.h
+	"Mutation.h"
+
+1544723546 /home/joao/Projects/PGDEC/src/SimpleCrossover.h
+	"Crossover.h"
+
+1544723546 /home/joao/Projects/PGDEC/include/MultiSearch.h
+	"Subject.h"
+	"Grammar.h"
+	"Tree.h"
+	"Configures.h"
+	"Parser.h"
+	"SimpleParser.h"
+	<cmath>
+	<algorithm>
+	<exception>
+	<fstream>
+	"Selection.h"
+	"TournamentSelection.h"
+	"PopulationReplacement.h"
+	"SimpleReplace.h"
+	"IndividuoBuilder.h"
+	"SimpleIndividuoBuilder.h"
+	"DifferencialEvolution.h"
+	"EvolutionStrategie.h"
+	"Mutation.h"
+	"SimpleMutation.h"
+	"Crossover.h"
+	"SimpleCrossover.h"
+	<omp.h>
+
+1544723546 /home/joao/Projects/PGDEC/src/SimpleClassifierParser.h
+	"Configures.h"
+	"Parser.h"
+	"SimpleIndividuo.h"
+	"DifferencialEvolution.h"
+	"EvolutionStrategie.h"
+	<vector>
+	<stack>
+	<tuple>
+	<cmath>
+
+1614543754 source:/home/joao/Projects/PGDEC/src/MultiSearch.cpp
+	"MultiSearch.h"
+	<vector>
+
+1544723546 source:/home/joao/Projects/PGDEC/src/Mutation.cpp
+	"Mutation.h"
+
+1544723546 source:/home/joao/Projects/PGDEC/src/No.cpp
+	"No.h"
+	<iostream>
+	<string>
+
+1544723546 source:/home/joao/Projects/PGDEC/src/Parser.cpp
+
+1544723546 source:/home/joao/Projects/PGDEC/src/PopulationReplacement.cpp
+	"PopulationReplacement.h"
+
+1614548685 source:/home/joao/Projects/PGDEC/src/Search.cpp
+	"Search.h"
+	<vector>
+
+1544723546 source:/home/joao/Projects/PGDEC/src/Selection.cpp
+	"Selection.h"
+
+1544723546 source:/home/joao/Projects/PGDEC/src/SimpleClassifierParser.cpp
+	"SimpleClassifierParser.h"
+
+1544723546 source:/home/joao/Projects/PGDEC/src/SimpleCrossover.cpp
+	"SimpleCrossover.h"
+
+1544723546 source:/home/joao/Projects/PGDEC/src/SimpleIndividuo.cpp
+	"SimpleIndividuo.h"
+
+1544723546 source:/home/joao/Projects/PGDEC/src/SimpleIndividuoBuilder.cpp
+	"SimpleIndividuoBuilder.h"
+
+1544723546 source:/home/joao/Projects/PGDEC/src/SimpleMutation.cpp
+	"SimpleMutation.h"
+
+1614362444 source:/home/joao/Projects/PGDEC/src/SimpleParser.cpp
+	"SimpleParser.h"
+
+1592001851 source:/home/joao/Projects/PGDEC/src/SimpleReplace.cpp
+	"SimpleReplace.h"
+
+1544723546 source:/home/joao/Projects/PGDEC/src/Subject.cpp
+	"Subject.h"
+
+1544723546 source:/home/joao/Projects/PGDEC/src/TournamentSelection.cpp
+	"TournamentSelection.h"
+
+1544723546 source:/home/joao/Projects/PGDEC/src/Tree.cpp
+	"Tree.h"
+
+1592596707 source:/home/joao/Projects/PGDEC/src/AdolfoClassifierParser.cpp
+	"AdolfoClassifierParser.h"
+
+1592588877 /home/joao/Projects/PGDEC/src/AdolfoClassifierParser.h
+	"Configures.h"
+	"Parser.h"
+	"SimpleIndividuo.h"
+	"DifferencialEvolution.h"
+	"EvolutionStrategie.h"
+	<vector>
+	<stack>
+	<tuple>
+	<cmath>
+
+1608061977 /home/joao/Projects/PGDEC/src/SimpleFunctionalEquationsParser.h
+	"Configures.h"
+	"Parser.h"
+	"SimpleIndividuo.h"
+	"DifferencialEvolution.h"
+	"EvolutionStrategie.h"
+	<vector>
+	<stack>
+	<tuple>
+	<cmath>
+
+1608141126 source:/home/joao/Projects/PGDEC/src/SimpleFunctionalEquationsParser.cpp
+	"SimpleFunctionalEquationsParser.h"
+
+1544723546 source:/home/joao/Projects/ufjf/PGDEC/inc/DifferencialEvolution.cpp
+	"DifferencialEvolution.h"
+
+1544723546 /home/joao/Projects/ufjf/PGDEC/inc/DifferencialEvolution.h
+	<cmath>
+	"vector"
+	<time.h>
+	<ctime>
+	<iostream>
+	<fstream>
+	<algorithm>
+	<random>
+	"RK4LSIndividuo.h"
+	"Parser.h"
+	"SimpleIndividuo.h"
+
+1544723546 /home/joao/Projects/ufjf/PGDEC/inc/RK4LSIndividuo.h
+	"Subject.h"
+
+1544723546 /home/joao/Projects/ufjf/PGDEC/src/Subject.h
+	<iostream>
+	<vector>
+	"Tree.h"
+	<string>
+
+1544723546 /home/joao/Projects/ufjf/PGDEC/src/Tree.h
+	"No.h"
+	"Configures.h"
+	<iostream>
+	<vector>
+	<tuple>
+
+1544723546 /home/joao/Projects/ufjf/PGDEC/src/No.h
+	<iostream>
+	<string>
+	<vector>
+	<sstream>
+
+1614364449 /home/joao/Projects/ufjf/PGDEC/src/Configures.h
+	<stdlib.h>
+	<time.h>
+	<omp.h>
+	<string>
+	"Grammar.h"
+
+1544723546 /home/joao/Projects/ufjf/PGDEC/src/Grammar.h
+	<tuple>
+	<vector>
+	<string>
+	<sstream>
+	<fstream>
+	<algorithm>
+	"Database.h"
+	"No.h"
+	"Configures.h"
+
+1544723546 /home/joao/Projects/ufjf/PGDEC/src/Database.h
+	<iostream>
+	<cstring>
+	<fstream>
+	<vector>
+	<cmath>
+	"Configures.h"
+
+1544723546 /home/joao/Projects/ufjf/PGDEC/src/Parser.h
+	"Configures.h"
+	"Subject.h"
+	<string>
+
+1544723546 /home/joao/Projects/ufjf/PGDEC/src/SimpleIndividuo.h
+	"Subject.h"
+
+1544723546 source:/home/joao/Projects/ufjf/PGDEC/inc/LeastSquareIndividuo.cpp
+	"LeastSquareIndividuo.h"
+	"Tree.h"
+
+1544723546 /home/joao/Projects/ufjf/PGDEC/inc/LeastSquareIndividuo.h
+	"Subject.h"
+
+1544723546 source:/home/joao/Projects/ufjf/PGDEC/inc/LeastSquareIndividuoBuilder.cpp
+	"LeastSquareIndividuoBuilder.h"
+
+1544723546 /home/joao/Projects/ufjf/PGDEC/inc/LeastSquareIndividuoBuilder.h
+	"IndividuoBuilder.h"
+	"LeastSquareIndividuo.h"
+
+1544723546 /home/joao/Projects/ufjf/PGDEC/src/IndividuoBuilder.h
+	"Subject.h"
+	<string>
+
+1544723546 source:/home/joao/Projects/ufjf/PGDEC/inc/LeastSquareParser.cpp
+	"LeastSquareParser.h"
+
+1544723546 /home/joao/Projects/ufjf/PGDEC/inc/LeastSquareParser.h
+	"Configures.h"
+	"Parser.h"
+	"../inc/QRDecomposition.h"
+	<vector>
+	<stack>
+	<tuple>
+	<cmath>
+	"SimpleParser.h"
+	"LeastSquareIndividuo.h"
+
+1544723546 /home/joao/Projects/ufjf/PGDEC/inc/QRDecomposition.h
+
+1544723546 /home/joao/Projects/ufjf/PGDEC/src/SimpleParser.h
+	"Configures.h"
+	"Parser.h"
+	"SimpleIndividuo.h"
+	"DifferencialEvolution.h"
+	"EvolutionStrategie.h"
+	<vector>
+	<stack>
+	<tuple>
+	<cmath>
+
+1544723546 /home/joao/Projects/ufjf/PGDEC/include/EvolutionStrategie.h
+	<cmath>
+	"vector"
+	<time.h>
+	<ctime>
+	<iostream>
+	<fstream>
+	<algorithm>
+	<random>
+	"RK4LSIndividuo.h"
+	"Parser.h"
+	"SimpleIndividuo.h"
+
+1544723546 source:/home/joao/Projects/ufjf/PGDEC/inc/LSDerivadasParser.cpp
+	"LSDerivadasParser.h"
+
+1544723546 /home/joao/Projects/ufjf/PGDEC/inc/LSDerivadasParser.h
+	"Configures.h"
+	"Parser.h"
+	"QRDecomposition.h"
+	<vector>
+	<stack>
+	<tuple>
+	<cmath>
+	"LeastSquareIndividuo.h"
+	"SimpleParser.h"
+
+1544723546 source:/home/joao/Projects/ufjf/PGDEC/inc/ParserDerivadas.cpp
+	"ParserDerivadas.h"
+
+1544723546 /home/joao/Projects/ufjf/PGDEC/inc/ParserDerivadas.h
+	"Configures.h"
+	"Parser.h"
+	<vector>
+	<stack>
+	<tuple>
+	<cmath>
+	"SimpleParser.h"
+
+1544723546 source:/home/joao/Projects/ufjf/PGDEC/inc/QRDecomposition.cpp
+	"QRDecomposition.h"
+	<cmath>
+	<stdlib.h>
+	<string.h>
+	<iostream>
+	<memory.h>
+
+1544723546 source:/home/joao/Projects/ufjf/PGDEC/inc/RK4AGParser.cpp
+	"RK4AGParser.h"
+
+1544723546 /home/joao/Projects/ufjf/PGDEC/inc/RK4AGParser.h
+	"SimpleParser.h"
+	"RK4LSIndividuo.h"
+
+1544723546 source:/home/joao/Projects/ufjf/PGDEC/inc/RK4LSDerivadasParser.cpp
+	"RK4LSDerivadasParser.h"
+
+1544723546 /home/joao/Projects/ufjf/PGDEC/inc/RK4LSDerivadasParser.h
+	"Configures.h"
+	"Parser.h"
+	"QRDecomposition.h"
+	<vector>
+	<stack>
+	<tuple>
+	<cmath>
+	"RK4LSIndividuo.h"
+	"SimpleParser.h"
+
+1544723546 source:/home/joao/Projects/ufjf/PGDEC/inc/RK4LSDParser.cpp
+	"RK4LSDParser.h"
+
+1544723546 /home/joao/Projects/ufjf/PGDEC/inc/RK4LSDParser.h
+	"SimpleParser.h"
+	"RK4LSIndividuo.h"
+	"LeastSquareIndividuo.h"
+	"QRDecomposition.h"
+
+1544723546 source:/home/joao/Projects/ufjf/PGDEC/inc/RK4LSIndividuo.cpp
+	"RK4LSIndividuo.h"
+
+1544723546 source:/home/joao/Projects/ufjf/PGDEC/inc/RK4LSIndividuoBuilder.cpp
+	"RK4LSIndividuoBuilder.h"
+
+1544723546 /home/joao/Projects/ufjf/PGDEC/inc/RK4LSIndividuoBuilder.h
+	"IndividuoBuilder.h"
+	"RK4LSIndividuo.h"
+
+1544723546 source:/home/joao/Projects/ufjf/PGDEC/inc/RK4sParser.cpp
+	"RK4sParser.h"
+
+1544723546 /home/joao/Projects/ufjf/PGDEC/inc/RK4sParser.h
+	"SimpleParser.h"
+	"RK4LSIndividuo.h"
+	"DifferencialEvolution.h"
+
+1592596707 source:/home/joao/Projects/ufjf/PGDEC/src/AdolfoClassifierParser.cpp
+	"AdolfoClassifierParser.h"
+
+1592588877 /home/joao/Projects/ufjf/PGDEC/src/AdolfoClassifierParser.h
+	"Configures.h"
+	"Parser.h"
+	"SimpleIndividuo.h"
+	"DifferencialEvolution.h"
+	"EvolutionStrategie.h"
+	<vector>
+	<stack>
+	<tuple>
+	<cmath>
+
+1544723546 source:/home/joao/Projects/ufjf/PGDEC/src/Configures.cpp
+	"Configures.h"
+
+1544723546 source:/home/joao/Projects/ufjf/PGDEC/src/Crossover.cpp
+	"Crossover.h"
+
+1544723546 /home/joao/Projects/ufjf/PGDEC/src/Crossover.h
+	"Subject.h"
+
+1620161199 source:/home/joao/Projects/ufjf/PGDEC/src/Database.cpp
+	"Database.h"
+
+1544723546 source:/home/joao/Projects/ufjf/PGDEC/src/EvolutionStrategie.cpp
+	"EvolutionStrategie.h"
+
+1544723546 source:/home/joao/Projects/ufjf/PGDEC/src/Grammar.cpp
+	"Grammar.h"
+	"Configures.h"
+
+1544723546 source:/home/joao/Projects/ufjf/PGDEC/src/IndividuoBuilder.cpp
+	"IndividuoBuilder.h"
+
+1620175953 source:/home/joao/Projects/ufjf/PGDEC/src/main.cpp
+	<iostream>
+	"Database.h"
+	"Grammar.h"
+	"No.h"
+	"Configures.h"
+	"Search.h"
+	"MultiSearch.h"
+	"Configures.h"
+	"SimpleParser.h"
+	"SimpleFunctionalEquationsParser.h"
+	"SimpleClassifierParser.h"
+	"AdolfoClassifierParser.h"
+	"../inc/ParserDerivadas.h"
+	"../inc/LeastSquareParser.h"
+	"../inc/LSDerivadasParser.h"
+	"IndividuoBuilder.h"
+	"LeastSquareIndividuoBuilder.h"
+	"../inc/RK4LSDerivadasParser.h"
+	"../inc/RK4LSIndividuoBuilder.h"
+	"Subject.h"
+	"RK4sParser.h"
+	"../inc/RK4AGParser.h"
+	"RK4LSDParser.h"
+	<sstream>
+
+1620160009 /home/joao/Projects/ufjf/PGDEC/src/Search.h
+	"Subject.h"
+	"Grammar.h"
+	"Tree.h"
+	"Configures.h"
+	"Parser.h"
+	"SimpleParser.h"
+	<cmath>
+	<algorithm>
+	<exception>
+	"Selection.h"
+	"TournamentSelection.h"
+	"PopulationReplacement.h"
+	"SimpleReplace.h"
+	"IndividuoBuilder.h"
+	"SimpleIndividuoBuilder.h"
+	"DifferencialEvolution.h"
+	"EvolutionStrategie.h"
+	"Mutation.h"
+	"SimpleMutation.h"
+	"Crossover.h"
+	"SimpleCrossover.h"
+	<omp.h>
+	<cstdio>
+	<iostream>
+
+1544723546 /home/joao/Projects/ufjf/PGDEC/src/Selection.h
+	"Subject.h"
+
+1544723546 /home/joao/Projects/ufjf/PGDEC/src/TournamentSelection.h
+	"Selection.h"
+	"Subject.h"
+
+1544723546 /home/joao/Projects/ufjf/PGDEC/src/PopulationReplacement.h
+	"Subject.h"
+
+1544723546 /home/joao/Projects/ufjf/PGDEC/src/SimpleReplace.h
+	"Subject.h"
+	"PopulationReplacement.h"
+	"Configures.h"
+	<iostream>
+	<algorithm>
+
+1544723546 /home/joao/Projects/ufjf/PGDEC/src/SimpleIndividuoBuilder.h
+	"IndividuoBuilder.h"
+	"SimpleIndividuo.h"
+
+1544723546 /home/joao/Projects/ufjf/PGDEC/src/Mutation.h
+	"Subject.h"
+
+1544723546 /home/joao/Projects/ufjf/PGDEC/src/SimpleMutation.h
+	"Mutation.h"
+
+1544723546 /home/joao/Projects/ufjf/PGDEC/src/SimpleCrossover.h
+	"Crossover.h"
+
+1544723546 /home/joao/Projects/ufjf/PGDEC/include/MultiSearch.h
+	"Subject.h"
+	"Grammar.h"
+	"Tree.h"
+	"Configures.h"
+	"Parser.h"
+	"SimpleParser.h"
+	<cmath>
+	<algorithm>
+	<exception>
+	<fstream>
+	"Selection.h"
+	"TournamentSelection.h"
+	"PopulationReplacement.h"
+	"SimpleReplace.h"
+	"IndividuoBuilder.h"
+	"SimpleIndividuoBuilder.h"
+	"DifferencialEvolution.h"
+	"EvolutionStrategie.h"
+	"Mutation.h"
+	"SimpleMutation.h"
+	"Crossover.h"
+	"SimpleCrossover.h"
+	<omp.h>
+
+1608061977 /home/joao/Projects/ufjf/PGDEC/src/SimpleFunctionalEquationsParser.h
+	"Configures.h"
+	"Parser.h"
+	"SimpleIndividuo.h"
+	"DifferencialEvolution.h"
+	"EvolutionStrategie.h"
+	<vector>
+	<stack>
+	<tuple>
+	<cmath>
+
+1544723546 /home/joao/Projects/ufjf/PGDEC/src/SimpleClassifierParser.h
+	"Configures.h"
+	"Parser.h"
+	"SimpleIndividuo.h"
+	"DifferencialEvolution.h"
+	"EvolutionStrategie.h"
+	<vector>
+	<stack>
+	<tuple>
+	<cmath>
+
+1620159516 source:/home/joao/Projects/ufjf/PGDEC/src/MultiSearch.cpp
+	"MultiSearch.h"
+	<vector>
+
+1544723546 source:/home/joao/Projects/ufjf/PGDEC/src/Mutation.cpp
+	"Mutation.h"
+
+1544723546 source:/home/joao/Projects/ufjf/PGDEC/src/No.cpp
+	"No.h"
+	<iostream>
+	<string>
+
+1544723546 source:/home/joao/Projects/ufjf/PGDEC/src/Parser.cpp
+
+1544723546 source:/home/joao/Projects/ufjf/PGDEC/src/PopulationReplacement.cpp
+	"PopulationReplacement.h"
+
+1620164228 source:/home/joao/Projects/ufjf/PGDEC/src/Search.cpp
+	"Search.h"
+	<vector>
+
+1544723546 source:/home/joao/Projects/ufjf/PGDEC/src/Selection.cpp
+	"Selection.h"
+
+1544723546 source:/home/joao/Projects/ufjf/PGDEC/src/SimpleClassifierParser.cpp
+	"SimpleClassifierParser.h"
+
+1544723546 source:/home/joao/Projects/ufjf/PGDEC/src/SimpleCrossover.cpp
+	"SimpleCrossover.h"
+
+1608141126 source:/home/joao/Projects/ufjf/PGDEC/src/SimpleFunctionalEquationsParser.cpp
+	"SimpleFunctionalEquationsParser.h"
+
+1544723546 source:/home/joao/Projects/ufjf/PGDEC/src/SimpleIndividuo.cpp
+	"SimpleIndividuo.h"
+
+1544723546 source:/home/joao/Projects/ufjf/PGDEC/src/SimpleIndividuoBuilder.cpp
+	"SimpleIndividuoBuilder.h"
+
+1544723546 source:/home/joao/Projects/ufjf/PGDEC/src/SimpleMutation.cpp
+	"SimpleMutation.h"
+
+1620158485 source:/home/joao/Projects/ufjf/PGDEC/src/SimpleParser.cpp
+	"SimpleParser.h"
+
+1592001851 source:/home/joao/Projects/ufjf/PGDEC/src/SimpleReplace.cpp
+	"SimpleReplace.h"
+
+1544723546 source:/home/joao/Projects/ufjf/PGDEC/src/Subject.cpp
+	"Subject.h"
+
+1544723546 source:/home/joao/Projects/ufjf/PGDEC/src/TournamentSelection.cpp
+	"TournamentSelection.h"
+
+1544723546 source:/home/joao/Projects/ufjf/PGDEC/src/Tree.cpp
+	"Tree.h"
+
+1544723546 source:/home/joao/Projects/ufjf/Adolfo - PG2/inc/DifferencialEvolution.cpp
+	"DifferencialEvolution.h"
+
+1544723546 /home/joao/Projects/ufjf/Adolfo - PG2/inc/DifferencialEvolution.h
+	<cmath>
+	"vector"
+	<time.h>
+	<ctime>
+	<iostream>
+	<fstream>
+	<algorithm>
+	<random>
+	"RK4LSIndividuo.h"
+	"Parser.h"
+	"SimpleIndividuo.h"
+
+1544723546 /home/joao/Projects/ufjf/Adolfo - PG2/inc/RK4LSIndividuo.h
+	"Subject.h"
+
+1544723546 /home/joao/Projects/ufjf/Adolfo - PG2/src/Subject.h
+	<iostream>
+	<vector>
+	"Tree.h"
+	<string>
+
+1544723546 /home/joao/Projects/ufjf/Adolfo - PG2/src/Tree.h
+	"No.h"
+	"Configures.h"
+	<iostream>
+	<vector>
+	<tuple>
+
+1544723546 /home/joao/Projects/ufjf/Adolfo - PG2/src/No.h
+	<iostream>
+	<string>
+	<vector>
+	<sstream>
+
+1614364449 /home/joao/Projects/ufjf/Adolfo - PG2/src/Configures.h
+	<stdlib.h>
+	<time.h>
+	<omp.h>
+	<string>
+	"Grammar.h"
+
+1544723546 /home/joao/Projects/ufjf/Adolfo - PG2/src/Grammar.h
+	<tuple>
+	<vector>
+	<string>
+	<sstream>
+	<fstream>
+	<algorithm>
+	"Database.h"
+	"No.h"
+	"Configures.h"
+
+1544723546 /home/joao/Projects/ufjf/Adolfo - PG2/src/Database.h
+	<iostream>
+	<cstring>
+	<fstream>
+	<vector>
+	<cmath>
+	"Configures.h"
+
+1544723546 /home/joao/Projects/ufjf/Adolfo - PG2/src/Parser.h
+	"Configures.h"
+	"Subject.h"
+	<string>
+
+1544723546 /home/joao/Projects/ufjf/Adolfo - PG2/src/SimpleIndividuo.h
+	"Subject.h"
+
+1544723546 source:/home/joao/Projects/ufjf/Adolfo - PG2/inc/LeastSquareIndividuo.cpp
+	"LeastSquareIndividuo.h"
+	"Tree.h"
+
+1544723546 /home/joao/Projects/ufjf/Adolfo - PG2/inc/LeastSquareIndividuo.h
+	"Subject.h"
+
+1544723546 source:/home/joao/Projects/ufjf/Adolfo - PG2/inc/LeastSquareIndividuoBuilder.cpp
+	"LeastSquareIndividuoBuilder.h"
+
+1544723546 /home/joao/Projects/ufjf/Adolfo - PG2/inc/LeastSquareIndividuoBuilder.h
+	"IndividuoBuilder.h"
+	"LeastSquareIndividuo.h"
+
+1544723546 /home/joao/Projects/ufjf/Adolfo - PG2/src/IndividuoBuilder.h
+	"Subject.h"
+	<string>
+
+1544723546 source:/home/joao/Projects/ufjf/Adolfo - PG2/inc/LeastSquareParser.cpp
+	"LeastSquareParser.h"
+
+1544723546 /home/joao/Projects/ufjf/Adolfo - PG2/inc/LeastSquareParser.h
+	"Configures.h"
+	"Parser.h"
+	"../inc/QRDecomposition.h"
+	<vector>
+	<stack>
+	<tuple>
+	<cmath>
+	"SimpleParser.h"
+	"LeastSquareIndividuo.h"
+
+1544723546 /home/joao/Projects/ufjf/Adolfo - PG2/inc/QRDecomposition.h
+
+1544723546 /home/joao/Projects/ufjf/Adolfo - PG2/src/SimpleParser.h
+	"Configures.h"
+	"Parser.h"
+	"SimpleIndividuo.h"
+	"DifferencialEvolution.h"
+	"EvolutionStrategie.h"
+	<vector>
+	<stack>
+	<tuple>
+	<cmath>
+
+1544723546 /home/joao/Projects/ufjf/Adolfo - PG2/include/EvolutionStrategie.h
+	<cmath>
+	"vector"
+	<time.h>
+	<ctime>
+	<iostream>
+	<fstream>
+	<algorithm>
+	<random>
+	"RK4LSIndividuo.h"
+	"Parser.h"
+	"SimpleIndividuo.h"
+
+1544723546 source:/home/joao/Projects/ufjf/Adolfo - PG2/inc/LSDerivadasParser.cpp
+	"LSDerivadasParser.h"
+
+1544723546 /home/joao/Projects/ufjf/Adolfo - PG2/inc/LSDerivadasParser.h
+	"Configures.h"
+	"Parser.h"
+	"QRDecomposition.h"
+	<vector>
+	<stack>
+	<tuple>
+	<cmath>
+	"LeastSquareIndividuo.h"
+	"SimpleParser.h"
+
+1544723546 source:/home/joao/Projects/ufjf/Adolfo - PG2/inc/ParserDerivadas.cpp
+	"ParserDerivadas.h"
+
+1544723546 /home/joao/Projects/ufjf/Adolfo - PG2/inc/ParserDerivadas.h
+	"Configures.h"
+	"Parser.h"
+	<vector>
+	<stack>
+	<tuple>
+	<cmath>
+	"SimpleParser.h"
+
+1544723546 source:/home/joao/Projects/ufjf/Adolfo - PG2/inc/QRDecomposition.cpp
+	"QRDecomposition.h"
+	<cmath>
+	<stdlib.h>
+	<string.h>
+	<iostream>
+	<memory.h>
+
+1544723546 source:/home/joao/Projects/ufjf/Adolfo - PG2/inc/RK4AGParser.cpp
+	"RK4AGParser.h"
+
+1544723546 /home/joao/Projects/ufjf/Adolfo - PG2/inc/RK4AGParser.h
+	"SimpleParser.h"
+	"RK4LSIndividuo.h"
+
+1544723546 source:/home/joao/Projects/ufjf/Adolfo - PG2/inc/RK4LSDerivadasParser.cpp
+	"RK4LSDerivadasParser.h"
+
+1544723546 /home/joao/Projects/ufjf/Adolfo - PG2/inc/RK4LSDerivadasParser.h
+	"Configures.h"
+	"Parser.h"
+	"QRDecomposition.h"
+	<vector>
+	<stack>
+	<tuple>
+	<cmath>
+	"RK4LSIndividuo.h"
+	"SimpleParser.h"
+
+1544723546 source:/home/joao/Projects/ufjf/Adolfo - PG2/inc/RK4LSDParser.cpp
+	"RK4LSDParser.h"
+
+1544723546 /home/joao/Projects/ufjf/Adolfo - PG2/inc/RK4LSDParser.h
+	"SimpleParser.h"
+	"RK4LSIndividuo.h"
+	"LeastSquareIndividuo.h"
+	"QRDecomposition.h"
+
+1544723546 source:/home/joao/Projects/ufjf/Adolfo - PG2/inc/RK4LSIndividuo.cpp
+	"RK4LSIndividuo.h"
+
+1544723546 source:/home/joao/Projects/ufjf/Adolfo - PG2/inc/RK4LSIndividuoBuilder.cpp
+	"RK4LSIndividuoBuilder.h"
+
+1544723546 /home/joao/Projects/ufjf/Adolfo - PG2/inc/RK4LSIndividuoBuilder.h
+	"IndividuoBuilder.h"
+	"RK4LSIndividuo.h"
+
+1544723546 source:/home/joao/Projects/ufjf/Adolfo - PG2/inc/RK4sParser.cpp
+	"RK4sParser.h"
+
+1544723546 /home/joao/Projects/ufjf/Adolfo - PG2/inc/RK4sParser.h
+	"SimpleParser.h"
+	"RK4LSIndividuo.h"
+	"DifferencialEvolution.h"
+
+1592596707 source:/home/joao/Projects/ufjf/Adolfo - PG2/src/AdolfoClassifierParser.cpp
+	"AdolfoClassifierParser.h"
+
+1592588877 /home/joao/Projects/ufjf/Adolfo - PG2/src/AdolfoClassifierParser.h
+	"Configures.h"
+	"Parser.h"
+	"SimpleIndividuo.h"
+	"DifferencialEvolution.h"
+	"EvolutionStrategie.h"
+	<vector>
+	<stack>
+	<tuple>
+	<cmath>
+
+1544723546 source:/home/joao/Projects/ufjf/Adolfo - PG2/src/Configures.cpp
+	"Configures.h"
+
+1544723546 source:/home/joao/Projects/ufjf/Adolfo - PG2/src/Crossover.cpp
+	"Crossover.h"
+
+1544723546 /home/joao/Projects/ufjf/Adolfo - PG2/src/Crossover.h
+	"Subject.h"
+
+1620161199 source:/home/joao/Projects/ufjf/Adolfo - PG2/src/Database.cpp
+	"Database.h"
+
+1544723546 source:/home/joao/Projects/ufjf/Adolfo - PG2/src/EvolutionStrategie.cpp
+	"EvolutionStrategie.h"
+
+1544723546 source:/home/joao/Projects/ufjf/Adolfo - PG2/src/Grammar.cpp
+	"Grammar.h"
+	"Configures.h"
+
+1544723546 source:/home/joao/Projects/ufjf/Adolfo - PG2/src/IndividuoBuilder.cpp
+	"IndividuoBuilder.h"
+
+1621555020 source:/home/joao/Projects/ufjf/Adolfo - PG2/src/main.cpp
+	<iostream>
+	"Database.h"
+	"Grammar.h"
+	"No.h"
+	"Configures.h"
+	"Search.h"
+	"MultiSearch.h"
+	"Configures.h"
+	"SimpleParser.h"
+	"SimpleFunctionalEquationsParser.h"
+	"SimpleClassifierParser.h"
+	"AdolfoClassifierParser.h"
+	"../inc/ParserDerivadas.h"
+	"../inc/LeastSquareParser.h"
+	"../inc/LSDerivadasParser.h"
+	"IndividuoBuilder.h"
+	"LeastSquareIndividuoBuilder.h"
+	"../inc/RK4LSDerivadasParser.h"
+	"../inc/RK4LSIndividuoBuilder.h"
+	"Subject.h"
+	"RK4sParser.h"
+	"../inc/RK4AGParser.h"
+	"RK4LSDParser.h"
+	<sstream>
+
+1620160009 /home/joao/Projects/ufjf/Adolfo - PG2/src/Search.h
+	"Subject.h"
+	"Grammar.h"
+	"Tree.h"
+	"Configures.h"
+	"Parser.h"
+	"SimpleParser.h"
+	<cmath>
+	<algorithm>
+	<exception>
+	"Selection.h"
+	"TournamentSelection.h"
+	"PopulationReplacement.h"
+	"SimpleReplace.h"
+	"IndividuoBuilder.h"
+	"SimpleIndividuoBuilder.h"
+	"DifferencialEvolution.h"
+	"EvolutionStrategie.h"
+	"Mutation.h"
+	"SimpleMutation.h"
+	"Crossover.h"
+	"SimpleCrossover.h"
+	<omp.h>
+	<cstdio>
+	<iostream>
+
+1544723546 /home/joao/Projects/ufjf/Adolfo - PG2/src/Selection.h
+	"Subject.h"
+
+1544723546 /home/joao/Projects/ufjf/Adolfo - PG2/src/TournamentSelection.h
+	"Selection.h"
+	"Subject.h"
+
+1544723546 /home/joao/Projects/ufjf/Adolfo - PG2/src/PopulationReplacement.h
+	"Subject.h"
+
+1544723546 /home/joao/Projects/ufjf/Adolfo - PG2/src/SimpleReplace.h
+	"Subject.h"
+	"PopulationReplacement.h"
+	"Configures.h"
+	<iostream>
+	<algorithm>
+
+1544723546 /home/joao/Projects/ufjf/Adolfo - PG2/src/SimpleIndividuoBuilder.h
+	"IndividuoBuilder.h"
+	"SimpleIndividuo.h"
+
+1544723546 /home/joao/Projects/ufjf/Adolfo - PG2/src/Mutation.h
+	"Subject.h"
+
+1544723546 /home/joao/Projects/ufjf/Adolfo - PG2/src/SimpleMutation.h
+	"Mutation.h"
+
+1544723546 /home/joao/Projects/ufjf/Adolfo - PG2/src/SimpleCrossover.h
+	"Crossover.h"
+
+1544723546 /home/joao/Projects/ufjf/Adolfo - PG2/include/MultiSearch.h
+	"Subject.h"
+	"Grammar.h"
+	"Tree.h"
+	"Configures.h"
+	"Parser.h"
+	"SimpleParser.h"
+	<cmath>
+	<algorithm>
+	<exception>
+	<fstream>
+	"Selection.h"
+	"TournamentSelection.h"
+	"PopulationReplacement.h"
+	"SimpleReplace.h"
+	"IndividuoBuilder.h"
+	"SimpleIndividuoBuilder.h"
+	"DifferencialEvolution.h"
+	"EvolutionStrategie.h"
+	"Mutation.h"
+	"SimpleMutation.h"
+	"Crossover.h"
+	"SimpleCrossover.h"
+	<omp.h>
+
+1608061977 /home/joao/Projects/ufjf/Adolfo - PG2/src/SimpleFunctionalEquationsParser.h
+	"Configures.h"
+	"Parser.h"
+	"SimpleIndividuo.h"
+	"DifferencialEvolution.h"
+	"EvolutionStrategie.h"
+	<vector>
+	<stack>
+	<tuple>
+	<cmath>
+
+1544723546 /home/joao/Projects/ufjf/Adolfo - PG2/src/SimpleClassifierParser.h
+	"Configures.h"
+	"Parser.h"
+	"SimpleIndividuo.h"
+	"DifferencialEvolution.h"
+	"EvolutionStrategie.h"
+	<vector>
+	<stack>
+	<tuple>
+	<cmath>
+
+1621553979 source:/home/joao/Projects/ufjf/Adolfo - PG2/src/MultiSearch.cpp
+	"MultiSearch.h"
+	<vector>
+
+1544723546 source:/home/joao/Projects/ufjf/Adolfo - PG2/src/Mutation.cpp
+	"Mutation.h"
+
+1544723546 source:/home/joao/Projects/ufjf/Adolfo - PG2/src/No.cpp
+	"No.h"
+	<iostream>
+	<string>
+
+1544723546 source:/home/joao/Projects/ufjf/Adolfo - PG2/src/Parser.cpp
+
+1544723546 source:/home/joao/Projects/ufjf/Adolfo - PG2/src/PopulationReplacement.cpp
+	"PopulationReplacement.h"
+
+1621553116 source:/home/joao/Projects/ufjf/Adolfo - PG2/src/Search.cpp
+	"Search.h"
+	<vector>
+
+1544723546 source:/home/joao/Projects/ufjf/Adolfo - PG2/src/Selection.cpp
+	"Selection.h"
+
+1620333492 source:/home/joao/Projects/ufjf/Adolfo - PG2/src/SimpleClassifierParser.cpp
+	"SimpleClassifierParser.h"
+
+1544723546 source:/home/joao/Projects/ufjf/Adolfo - PG2/src/SimpleCrossover.cpp
+	"SimpleCrossover.h"
+
+1608141126 source:/home/joao/Projects/ufjf/Adolfo - PG2/src/SimpleFunctionalEquationsParser.cpp
+	"SimpleFunctionalEquationsParser.h"
+
+1544723546 source:/home/joao/Projects/ufjf/Adolfo - PG2/src/SimpleIndividuo.cpp
+	"SimpleIndividuo.h"
+
+1544723546 source:/home/joao/Projects/ufjf/Adolfo - PG2/src/SimpleIndividuoBuilder.cpp
+	"SimpleIndividuoBuilder.h"
+
+1544723546 source:/home/joao/Projects/ufjf/Adolfo - PG2/src/SimpleMutation.cpp
+	"SimpleMutation.h"
+
+1621001195 source:/home/joao/Projects/ufjf/Adolfo - PG2/src/SimpleParser.cpp
+	"SimpleParser.h"
+
+1592001851 source:/home/joao/Projects/ufjf/Adolfo - PG2/src/SimpleReplace.cpp
+	"SimpleReplace.h"
+
+1544723546 source:/home/joao/Projects/ufjf/Adolfo - PG2/src/Subject.cpp
+	"Subject.h"
+
+1544723546 source:/home/joao/Projects/ufjf/Adolfo - PG2/src/TournamentSelection.cpp
+	"TournamentSelection.h"
+
+1544723546 source:/home/joao/Projects/ufjf/Adolfo - PG2/src/Tree.cpp
+	"Tree.h"
+
+1544723546 source:/home/joao/Projects/ufjf/Adolfo 06-2021/PG/inc/DifferencialEvolution.cpp
+	"DifferencialEvolution.h"
+
+1544723546 /home/joao/Projects/ufjf/Adolfo 06-2021/PG/inc/DifferencialEvolution.h
+	<cmath>
+	"vector"
+	<time.h>
+	<ctime>
+	<iostream>
+	<fstream>
+	<algorithm>
+	<random>
+	"RK4LSIndividuo.h"
+	"Parser.h"
+	"SimpleIndividuo.h"
+
+1544723546 /home/joao/Projects/ufjf/Adolfo 06-2021/PG/inc/RK4LSIndividuo.h
+	"Subject.h"
+
+1544723546 /home/joao/Projects/ufjf/Adolfo 06-2021/PG/src/Subject.h
+	<iostream>
+	<vector>
+	"Tree.h"
+	<string>
+
+1544723546 /home/joao/Projects/ufjf/Adolfo 06-2021/PG/src/Tree.h
+	"No.h"
+	"Configures.h"
+	<iostream>
+	<vector>
+	<tuple>
+
+1544723546 /home/joao/Projects/ufjf/Adolfo 06-2021/PG/src/No.h
+	<iostream>
+	<string>
+	<vector>
+	<sstream>
+
+1614364449 /home/joao/Projects/ufjf/Adolfo 06-2021/PG/src/Configures.h
+	<stdlib.h>
+	<time.h>
+	<omp.h>
+	<string>
+	"Grammar.h"
+
+1544723546 /home/joao/Projects/ufjf/Adolfo 06-2021/PG/src/Grammar.h
+	<tuple>
+	<vector>
+	<string>
+	<sstream>
+	<fstream>
+	<algorithm>
+	"Database.h"
+	"No.h"
+	"Configures.h"
+
+1544723546 /home/joao/Projects/ufjf/Adolfo 06-2021/PG/src/Database.h
+	<iostream>
+	<cstring>
+	<fstream>
+	<vector>
+	<cmath>
+	"Configures.h"
+
+1544723546 /home/joao/Projects/ufjf/Adolfo 06-2021/PG/src/Parser.h
+	"Configures.h"
+	"Subject.h"
+	<string>
+
+1544723546 /home/joao/Projects/ufjf/Adolfo 06-2021/PG/src/SimpleIndividuo.h
+	"Subject.h"
+
+1544723546 source:/home/joao/Projects/ufjf/Adolfo 06-2021/PG/inc/LeastSquareIndividuo.cpp
+	"LeastSquareIndividuo.h"
+	"Tree.h"
+
+1544723546 /home/joao/Projects/ufjf/Adolfo 06-2021/PG/inc/LeastSquareIndividuo.h
+	"Subject.h"
+
+1544723546 source:/home/joao/Projects/ufjf/Adolfo 06-2021/PG/inc/LeastSquareIndividuoBuilder.cpp
+	"LeastSquareIndividuoBuilder.h"
+
+1544723546 /home/joao/Projects/ufjf/Adolfo 06-2021/PG/inc/LeastSquareIndividuoBuilder.h
+	"IndividuoBuilder.h"
+	"LeastSquareIndividuo.h"
+
+1544723546 /home/joao/Projects/ufjf/Adolfo 06-2021/PG/src/IndividuoBuilder.h
+	"Subject.h"
+	<string>
+
+1544723546 source:/home/joao/Projects/ufjf/Adolfo 06-2021/PG/inc/LeastSquareParser.cpp
+	"LeastSquareParser.h"
+
+1544723546 /home/joao/Projects/ufjf/Adolfo 06-2021/PG/inc/LeastSquareParser.h
+	"Configures.h"
+	"Parser.h"
+	"../inc/QRDecomposition.h"
+	<vector>
+	<stack>
+	<tuple>
+	<cmath>
+	"SimpleParser.h"
+	"LeastSquareIndividuo.h"
+
+1544723546 /home/joao/Projects/ufjf/Adolfo 06-2021/PG/inc/QRDecomposition.h
+
+1544723546 /home/joao/Projects/ufjf/Adolfo 06-2021/PG/src/SimpleParser.h
+	"Configures.h"
+	"Parser.h"
+	"SimpleIndividuo.h"
+	"DifferencialEvolution.h"
+	"EvolutionStrategie.h"
+	<vector>
+	<stack>
+	<tuple>
+	<cmath>
+
+1544723546 /home/joao/Projects/ufjf/Adolfo 06-2021/PG/include/EvolutionStrategie.h
+	<cmath>
+	"vector"
+	<time.h>
+	<ctime>
+	<iostream>
+	<fstream>
+	<algorithm>
+	<random>
+	"RK4LSIndividuo.h"
+	"Parser.h"
+	"SimpleIndividuo.h"
+
+1544723546 source:/home/joao/Projects/ufjf/Adolfo 06-2021/PG/inc/LSDerivadasParser.cpp
+	"LSDerivadasParser.h"
+
+1544723546 /home/joao/Projects/ufjf/Adolfo 06-2021/PG/inc/LSDerivadasParser.h
+	"Configures.h"
+	"Parser.h"
+	"QRDecomposition.h"
+	<vector>
+	<stack>
+	<tuple>
+	<cmath>
+	"LeastSquareIndividuo.h"
+	"SimpleParser.h"
+
+1544723546 source:/home/joao/Projects/ufjf/Adolfo 06-2021/PG/inc/ParserDerivadas.cpp
+	"ParserDerivadas.h"
+
+1544723546 /home/joao/Projects/ufjf/Adolfo 06-2021/PG/inc/ParserDerivadas.h
+	"Configures.h"
+	"Parser.h"
+	<vector>
+	<stack>
+	<tuple>
+	<cmath>
+	"SimpleParser.h"
+
+1544723546 source:/home/joao/Projects/ufjf/Adolfo 06-2021/PG/inc/QRDecomposition.cpp
+	"QRDecomposition.h"
+	<cmath>
+	<stdlib.h>
+	<string.h>
+	<iostream>
+	<memory.h>
+
+1544723546 source:/home/joao/Projects/ufjf/Adolfo 06-2021/PG/inc/RK4AGParser.cpp
+	"RK4AGParser.h"
+
+1544723546 /home/joao/Projects/ufjf/Adolfo 06-2021/PG/inc/RK4AGParser.h
+	"SimpleParser.h"
+	"RK4LSIndividuo.h"
+
+1544723546 source:/home/joao/Projects/ufjf/Adolfo 06-2021/PG/inc/RK4LSDerivadasParser.cpp
+	"RK4LSDerivadasParser.h"
+
+1544723546 /home/joao/Projects/ufjf/Adolfo 06-2021/PG/inc/RK4LSDerivadasParser.h
+	"Configures.h"
+	"Parser.h"
+	"QRDecomposition.h"
+	<vector>
+	<stack>
+	<tuple>
+	<cmath>
+	"RK4LSIndividuo.h"
+	"SimpleParser.h"
+
+1544723546 source:/home/joao/Projects/ufjf/Adolfo 06-2021/PG/inc/RK4LSDParser.cpp
+	"RK4LSDParser.h"
+
+1544723546 /home/joao/Projects/ufjf/Adolfo 06-2021/PG/inc/RK4LSDParser.h
+	"SimpleParser.h"
+	"RK4LSIndividuo.h"
+	"LeastSquareIndividuo.h"
+	"QRDecomposition.h"
+
+1544723546 source:/home/joao/Projects/ufjf/Adolfo 06-2021/PG/inc/RK4LSIndividuo.cpp
+	"RK4LSIndividuo.h"
+
+1544723546 source:/home/joao/Projects/ufjf/Adolfo 06-2021/PG/inc/RK4LSIndividuoBuilder.cpp
+	"RK4LSIndividuoBuilder.h"
+
+1544723546 /home/joao/Projects/ufjf/Adolfo 06-2021/PG/inc/RK4LSIndividuoBuilder.h
+	"IndividuoBuilder.h"
+	"RK4LSIndividuo.h"
+
+1544723546 source:/home/joao/Projects/ufjf/Adolfo 06-2021/PG/inc/RK4sParser.cpp
+	"RK4sParser.h"
+
+1544723546 /home/joao/Projects/ufjf/Adolfo 06-2021/PG/inc/RK4sParser.h
+	"SimpleParser.h"
+	"RK4LSIndividuo.h"
+	"DifferencialEvolution.h"
+
+1592596707 source:/home/joao/Projects/ufjf/Adolfo 06-2021/PG/src/AdolfoClassifierParser.cpp
+	"AdolfoClassifierParser.h"
+
+1592588877 /home/joao/Projects/ufjf/Adolfo 06-2021/PG/src/AdolfoClassifierParser.h
+	"Configures.h"
+	"Parser.h"
+	"SimpleIndividuo.h"
+	"DifferencialEvolution.h"
+	"EvolutionStrategie.h"
+	<vector>
+	<stack>
+	<tuple>
+	<cmath>
+
+1544723546 source:/home/joao/Projects/ufjf/Adolfo 06-2021/PG/src/Configures.cpp
+	"Configures.h"
+
+1544723546 source:/home/joao/Projects/ufjf/Adolfo 06-2021/PG/src/Crossover.cpp
+	"Crossover.h"
+
+1544723546 /home/joao/Projects/ufjf/Adolfo 06-2021/PG/src/Crossover.h
+	"Subject.h"
+
+1620161199 source:/home/joao/Projects/ufjf/Adolfo 06-2021/PG/src/Database.cpp
+	"Database.h"
+
+1544723546 source:/home/joao/Projects/ufjf/Adolfo 06-2021/PG/src/EvolutionStrategie.cpp
+	"EvolutionStrategie.h"
+
+1544723546 source:/home/joao/Projects/ufjf/Adolfo 06-2021/PG/src/Grammar.cpp
+	"Grammar.h"
+	"Configures.h"
+
+1544723546 source:/home/joao/Projects/ufjf/Adolfo 06-2021/PG/src/IndividuoBuilder.cpp
+	"IndividuoBuilder.h"
+
+1625807576 source:/home/joao/Projects/ufjf/Adolfo 06-2021/PG/src/main.cpp
+	<iostream>
+	"Database.h"
+	"Grammar.h"
+	"No.h"
+	"Configures.h"
+	"Search.h"
+	"MultiSearch.h"
+	"Configures.h"
+	"SimpleParser.h"
+	"SimpleFunctionalEquationsParser.h"
+	"SimpleClassifierParser.h"
+	"AdolfoClassifierParser.h"
+	"../inc/ParserDerivadas.h"
+	"../inc/LeastSquareParser.h"
+	"../inc/LSDerivadasParser.h"
+	"IndividuoBuilder.h"
+	"LeastSquareIndividuoBuilder.h"
+	"../inc/RK4LSDerivadasParser.h"
+	"../inc/RK4LSIndividuoBuilder.h"
+	"Subject.h"
+	"RK4sParser.h"
+	"../inc/RK4AGParser.h"
+	"RK4LSDParser.h"
+	<sstream>
+
+1620160009 /home/joao/Projects/ufjf/Adolfo 06-2021/PG/src/Search.h
+	"Subject.h"
+	"Grammar.h"
+	"Tree.h"
+	"Configures.h"
+	"Parser.h"
+	"SimpleParser.h"
+	<cmath>
+	<algorithm>
+	<exception>
+	"Selection.h"
+	"TournamentSelection.h"
+	"PopulationReplacement.h"
+	"SimpleReplace.h"
+	"IndividuoBuilder.h"
+	"SimpleIndividuoBuilder.h"
+	"DifferencialEvolution.h"
+	"EvolutionStrategie.h"
+	"Mutation.h"
+	"SimpleMutation.h"
+	"Crossover.h"
+	"SimpleCrossover.h"
+	<omp.h>
+	<cstdio>
+	<iostream>
+
+1544723546 /home/joao/Projects/ufjf/Adolfo 06-2021/PG/src/Selection.h
+	"Subject.h"
+
+1544723546 /home/joao/Projects/ufjf/Adolfo 06-2021/PG/src/TournamentSelection.h
+	"Selection.h"
+	"Subject.h"
+
+1544723546 /home/joao/Projects/ufjf/Adolfo 06-2021/PG/src/PopulationReplacement.h
+	"Subject.h"
+
+1544723546 /home/joao/Projects/ufjf/Adolfo 06-2021/PG/src/SimpleReplace.h
+	"Subject.h"
+	"PopulationReplacement.h"
+	"Configures.h"
+	<iostream>
+	<algorithm>
+
+1544723546 /home/joao/Projects/ufjf/Adolfo 06-2021/PG/src/SimpleIndividuoBuilder.h
+	"IndividuoBuilder.h"
+	"SimpleIndividuo.h"
+
+1544723546 /home/joao/Projects/ufjf/Adolfo 06-2021/PG/src/Mutation.h
+	"Subject.h"
+
+1544723546 /home/joao/Projects/ufjf/Adolfo 06-2021/PG/src/SimpleMutation.h
+	"Mutation.h"
+
+1544723546 /home/joao/Projects/ufjf/Adolfo 06-2021/PG/src/SimpleCrossover.h
+	"Crossover.h"
+
+1544723546 /home/joao/Projects/ufjf/Adolfo 06-2021/PG/include/MultiSearch.h
+	"Subject.h"
+	"Grammar.h"
+	"Tree.h"
+	"Configures.h"
+	"Parser.h"
+	"SimpleParser.h"
+	<cmath>
+	<algorithm>
+	<exception>
+	<fstream>
+	"Selection.h"
+	"TournamentSelection.h"
+	"PopulationReplacement.h"
+	"SimpleReplace.h"
+	"IndividuoBuilder.h"
+	"SimpleIndividuoBuilder.h"
+	"DifferencialEvolution.h"
+	"EvolutionStrategie.h"
+	"Mutation.h"
+	"SimpleMutation.h"
+	"Crossover.h"
+	"SimpleCrossover.h"
+	<omp.h>
+
+1608061977 /home/joao/Projects/ufjf/Adolfo 06-2021/PG/src/SimpleFunctionalEquationsParser.h
+	"Configures.h"
+	"Parser.h"
+	"SimpleIndividuo.h"
+	"DifferencialEvolution.h"
+	"EvolutionStrategie.h"
+	<vector>
+	<stack>
+	<tuple>
+	<cmath>
+
+1544723546 /home/joao/Projects/ufjf/Adolfo 06-2021/PG/src/SimpleClassifierParser.h
+	"Configures.h"
+	"Parser.h"
+	"SimpleIndividuo.h"
+	"DifferencialEvolution.h"
+	"EvolutionStrategie.h"
+	<vector>
+	<stack>
+	<tuple>
+	<cmath>
+
+1621553979 source:/home/joao/Projects/ufjf/Adolfo 06-2021/PG/src/MultiSearch.cpp
+	"MultiSearch.h"
+	<vector>
+
+1544723546 source:/home/joao/Projects/ufjf/Adolfo 06-2021/PG/src/Mutation.cpp
+	"Mutation.h"
+
+1544723546 source:/home/joao/Projects/ufjf/Adolfo 06-2021/PG/src/No.cpp
+	"No.h"
+	<iostream>
+	<string>
+
+1544723546 source:/home/joao/Projects/ufjf/Adolfo 06-2021/PG/src/Parser.cpp
+
+1544723546 source:/home/joao/Projects/ufjf/Adolfo 06-2021/PG/src/PopulationReplacement.cpp
+	"PopulationReplacement.h"
+
+1625003852 source:/home/joao/Projects/ufjf/Adolfo 06-2021/PG/src/Search.cpp
+	"Search.h"
+	<vector>
+
+1544723546 source:/home/joao/Projects/ufjf/Adolfo 06-2021/PG/src/Selection.cpp
+	"Selection.h"
+
+1620333492 source:/home/joao/Projects/ufjf/Adolfo 06-2021/PG/src/SimpleClassifierParser.cpp
+	"SimpleClassifierParser.h"
+
+1544723546 source:/home/joao/Projects/ufjf/Adolfo 06-2021/PG/src/SimpleCrossover.cpp
+	"SimpleCrossover.h"
+
+1608141126 source:/home/joao/Projects/ufjf/Adolfo 06-2021/PG/src/SimpleFunctionalEquationsParser.cpp
+	"SimpleFunctionalEquationsParser.h"
+
+1544723546 source:/home/joao/Projects/ufjf/Adolfo 06-2021/PG/src/SimpleIndividuo.cpp
+	"SimpleIndividuo.h"
+
+1544723546 source:/home/joao/Projects/ufjf/Adolfo 06-2021/PG/src/SimpleIndividuoBuilder.cpp
+	"SimpleIndividuoBuilder.h"
+
+1544723546 source:/home/joao/Projects/ufjf/Adolfo 06-2021/PG/src/SimpleMutation.cpp
+	"SimpleMutation.h"
+
+1625809576 source:/home/joao/Projects/ufjf/Adolfo 06-2021/PG/src/SimpleParser.cpp
+	"SimpleParser.h"
+
+1592001851 source:/home/joao/Projects/ufjf/Adolfo 06-2021/PG/src/SimpleReplace.cpp
+	"SimpleReplace.h"
+
+1544723546 source:/home/joao/Projects/ufjf/Adolfo 06-2021/PG/src/Subject.cpp
+	"Subject.h"
+
+1544723546 source:/home/joao/Projects/ufjf/Adolfo 06-2021/PG/src/TournamentSelection.cpp
+	"TournamentSelection.h"
+
+1544723546 source:/home/joao/Projects/ufjf/Adolfo 06-2021/PG/src/Tree.cpp
+	"Tree.h"
+
+1544723546 source:/home/joao/Projects/ufjf/PG - To Bit/PG/inc/DifferencialEvolution.cpp
+	"DifferencialEvolution.h"
+
+1544723546 /home/joao/Projects/ufjf/PG - To Bit/PG/inc/DifferencialEvolution.h
+	<cmath>
+	"vector"
+	<time.h>
+	<ctime>
+	<iostream>
+	<fstream>
+	<algorithm>
+	<random>
+	"RK4LSIndividuo.h"
+	"Parser.h"
+	"SimpleIndividuo.h"
+
+1544723546 /home/joao/Projects/ufjf/PG - To Bit/PG/inc/RK4LSIndividuo.h
+	"Subject.h"
+
+1544723546 /home/joao/Projects/ufjf/PG - To Bit/PG/src/Subject.h
+	<iostream>
+	<vector>
+	"Tree.h"
+	<string>
+
+1544723546 /home/joao/Projects/ufjf/PG - To Bit/PG/src/Tree.h
+	"No.h"
+	"Configures.h"
+	<iostream>
+	<vector>
+	<tuple>
+
+1544723546 /home/joao/Projects/ufjf/PG - To Bit/PG/src/No.h
+	<iostream>
+	<string>
+	<vector>
+	<sstream>
+
+1614364449 /home/joao/Projects/ufjf/PG - To Bit/PG/src/Configures.h
+	<stdlib.h>
+	<time.h>
+	<omp.h>
+	<string>
+	"Grammar.h"
+
+1544723546 /home/joao/Projects/ufjf/PG - To Bit/PG/src/Grammar.h
+	<tuple>
+	<vector>
+	<string>
+	<sstream>
+	<fstream>
+	<algorithm>
+	"Database.h"
+	"No.h"
+	"Configures.h"
+
+1544723546 /home/joao/Projects/ufjf/PG - To Bit/PG/src/Database.h
+	<iostream>
+	<cstring>
+	<fstream>
+	<vector>
+	<cmath>
+	"Configures.h"
+
+1544723546 /home/joao/Projects/ufjf/PG - To Bit/PG/src/Parser.h
+	"Configures.h"
+	"Subject.h"
+	<string>
+
+1544723546 /home/joao/Projects/ufjf/PG - To Bit/PG/src/SimpleIndividuo.h
+	"Subject.h"
+
+1544723546 source:/home/joao/Projects/ufjf/PG - To Bit/PG/inc/LeastSquareIndividuo.cpp
+	"LeastSquareIndividuo.h"
+	"Tree.h"
+
+1544723546 /home/joao/Projects/ufjf/PG - To Bit/PG/inc/LeastSquareIndividuo.h
+	"Subject.h"
+
+1544723546 source:/home/joao/Projects/ufjf/PG - To Bit/PG/inc/LeastSquareIndividuoBuilder.cpp
+	"LeastSquareIndividuoBuilder.h"
+
+1544723546 /home/joao/Projects/ufjf/PG - To Bit/PG/inc/LeastSquareIndividuoBuilder.h
+	"IndividuoBuilder.h"
+	"LeastSquareIndividuo.h"
+
+1544723546 /home/joao/Projects/ufjf/PG - To Bit/PG/src/IndividuoBuilder.h
+	"Subject.h"
+	<string>
+
+1544723546 source:/home/joao/Projects/ufjf/PG - To Bit/PG/inc/LeastSquareParser.cpp
+	"LeastSquareParser.h"
+
+1544723546 /home/joao/Projects/ufjf/PG - To Bit/PG/inc/LeastSquareParser.h
+	"Configures.h"
+	"Parser.h"
+	"../inc/QRDecomposition.h"
+	<vector>
+	<stack>
+	<tuple>
+	<cmath>
+	"SimpleParser.h"
+	"LeastSquareIndividuo.h"
+
+1544723546 /home/joao/Projects/ufjf/PG - To Bit/PG/inc/QRDecomposition.h
+
+1544723546 /home/joao/Projects/ufjf/PG - To Bit/PG/src/SimpleParser.h
+	"Configures.h"
+	"Parser.h"
+	"SimpleIndividuo.h"
+	"DifferencialEvolution.h"
+	"EvolutionStrategie.h"
+	<vector>
+	<stack>
+	<tuple>
+	<cmath>
+
+1544723546 /home/joao/Projects/ufjf/PG - To Bit/PG/include/EvolutionStrategie.h
+	<cmath>
+	"vector"
+	<time.h>
+	<ctime>
+	<iostream>
+	<fstream>
+	<algorithm>
+	<random>
+	"RK4LSIndividuo.h"
+	"Parser.h"
+	"SimpleIndividuo.h"
+
+1544723546 source:/home/joao/Projects/ufjf/PG - To Bit/PG/inc/LSDerivadasParser.cpp
+	"LSDerivadasParser.h"
+
+1544723546 /home/joao/Projects/ufjf/PG - To Bit/PG/inc/LSDerivadasParser.h
+	"Configures.h"
+	"Parser.h"
+	"QRDecomposition.h"
+	<vector>
+	<stack>
+	<tuple>
+	<cmath>
+	"LeastSquareIndividuo.h"
+	"SimpleParser.h"
+
+1544723546 source:/home/joao/Projects/ufjf/PG - To Bit/PG/inc/ParserDerivadas.cpp
+	"ParserDerivadas.h"
+
+1544723546 /home/joao/Projects/ufjf/PG - To Bit/PG/inc/ParserDerivadas.h
+	"Configures.h"
+	"Parser.h"
+	<vector>
+	<stack>
+	<tuple>
+	<cmath>
+	"SimpleParser.h"
+
+1544723546 source:/home/joao/Projects/ufjf/PG - To Bit/PG/inc/QRDecomposition.cpp
+	"QRDecomposition.h"
+	<cmath>
+	<stdlib.h>
+	<string.h>
+	<iostream>
+	<memory.h>
+
+1544723546 source:/home/joao/Projects/ufjf/PG - To Bit/PG/inc/RK4AGParser.cpp
+	"RK4AGParser.h"
+
+1544723546 /home/joao/Projects/ufjf/PG - To Bit/PG/inc/RK4AGParser.h
+	"SimpleParser.h"
+	"RK4LSIndividuo.h"
+
+1544723546 source:/home/joao/Projects/ufjf/PG - To Bit/PG/inc/RK4LSDerivadasParser.cpp
+	"RK4LSDerivadasParser.h"
+
+1544723546 /home/joao/Projects/ufjf/PG - To Bit/PG/inc/RK4LSDerivadasParser.h
+	"Configures.h"
+	"Parser.h"
+	"QRDecomposition.h"
+	<vector>
+	<stack>
+	<tuple>
+	<cmath>
+	"RK4LSIndividuo.h"
+	"SimpleParser.h"
+
+1544723546 source:/home/joao/Projects/ufjf/PG - To Bit/PG/inc/RK4LSDParser.cpp
+	"RK4LSDParser.h"
+
+1544723546 /home/joao/Projects/ufjf/PG - To Bit/PG/inc/RK4LSDParser.h
+	"SimpleParser.h"
+	"RK4LSIndividuo.h"
+	"LeastSquareIndividuo.h"
+	"QRDecomposition.h"
+
+1544723546 source:/home/joao/Projects/ufjf/PG - To Bit/PG/inc/RK4LSIndividuo.cpp
+	"RK4LSIndividuo.h"
+
+1544723546 source:/home/joao/Projects/ufjf/PG - To Bit/PG/inc/RK4LSIndividuoBuilder.cpp
+	"RK4LSIndividuoBuilder.h"
+
+1544723546 /home/joao/Projects/ufjf/PG - To Bit/PG/inc/RK4LSIndividuoBuilder.h
+	"IndividuoBuilder.h"
+	"RK4LSIndividuo.h"
+
+1544723546 source:/home/joao/Projects/ufjf/PG - To Bit/PG/inc/RK4sParser.cpp
+	"RK4sParser.h"
+
+1544723546 /home/joao/Projects/ufjf/PG - To Bit/PG/inc/RK4sParser.h
+	"SimpleParser.h"
+	"RK4LSIndividuo.h"
+	"DifferencialEvolution.h"
+
+1592596707 source:/home/joao/Projects/ufjf/PG - To Bit/PG/src/AdolfoClassifierParser.cpp
+	"AdolfoClassifierParser.h"
+
+1592588877 /home/joao/Projects/ufjf/PG - To Bit/PG/src/AdolfoClassifierParser.h
+	"Configures.h"
+	"Parser.h"
+	"SimpleIndividuo.h"
+	"DifferencialEvolution.h"
+	"EvolutionStrategie.h"
+	<vector>
+	<stack>
+	<tuple>
+	<cmath>
+
+1544723546 source:/home/joao/Projects/ufjf/PG - To Bit/PG/src/Configures.cpp
+	"Configures.h"
+
+1544723546 source:/home/joao/Projects/ufjf/PG - To Bit/PG/src/Crossover.cpp
+	"Crossover.h"
+
+1544723546 /home/joao/Projects/ufjf/PG - To Bit/PG/src/Crossover.h
+	"Subject.h"
+
+1620161199 source:/home/joao/Projects/ufjf/PG - To Bit/PG/src/Database.cpp
+	"Database.h"
+
+1544723546 source:/home/joao/Projects/ufjf/PG - To Bit/PG/src/EvolutionStrategie.cpp
+	"EvolutionStrategie.h"
+
+1544723546 source:/home/joao/Projects/ufjf/PG - To Bit/PG/src/Grammar.cpp
+	"Grammar.h"
+	"Configures.h"
+
+1544723546 source:/home/joao/Projects/ufjf/PG - To Bit/PG/src/IndividuoBuilder.cpp
+	"IndividuoBuilder.h"
+
+1626491482 source:/home/joao/Projects/ufjf/PG - To Bit/PG/src/main.cpp
+	<iostream>
+	"Database.h"
+	"Grammar.h"
+	"No.h"
+	"Configures.h"
+	"Search.h"
+	"MultiSearch.h"
+	"Configures.h"
+	"SimpleParser.h"
+	"SimpleFunctionalEquationsParser.h"
+	"SimpleClassifierParser.h"
+	"AdolfoClassifierParser.h"
+	"../inc/ParserDerivadas.h"
+	"../inc/LeastSquareParser.h"
+	"../inc/LSDerivadasParser.h"
+	"IndividuoBuilder.h"
+	"LeastSquareIndividuoBuilder.h"
+	"../inc/RK4LSDerivadasParser.h"
+	"../inc/RK4LSIndividuoBuilder.h"
+	"Subject.h"
+	"RK4sParser.h"
+	"../inc/RK4AGParser.h"
+	"RK4LSDParser.h"
+	<sstream>
+
+1620160009 /home/joao/Projects/ufjf/PG - To Bit/PG/src/Search.h
+	"Subject.h"
+	"Grammar.h"
+	"Tree.h"
+	"Configures.h"
+	"Parser.h"
+	"SimpleParser.h"
+	<cmath>
+	<algorithm>
+	<exception>
+	"Selection.h"
+	"TournamentSelection.h"
+	"PopulationReplacement.h"
+	"SimpleReplace.h"
+	"IndividuoBuilder.h"
+	"SimpleIndividuoBuilder.h"
+	"DifferencialEvolution.h"
+	"EvolutionStrategie.h"
+	"Mutation.h"
+	"SimpleMutation.h"
+	"Crossover.h"
+	"SimpleCrossover.h"
+	<omp.h>
+	<cstdio>
+	<iostream>
+
+1544723546 /home/joao/Projects/ufjf/PG - To Bit/PG/src/Selection.h
+	"Subject.h"
+
+1544723546 /home/joao/Projects/ufjf/PG - To Bit/PG/src/TournamentSelection.h
+	"Selection.h"
+	"Subject.h"
+
+1544723546 /home/joao/Projects/ufjf/PG - To Bit/PG/src/PopulationReplacement.h
+	"Subject.h"
+
+1544723546 /home/joao/Projects/ufjf/PG - To Bit/PG/src/SimpleReplace.h
+	"Subject.h"
+	"PopulationReplacement.h"
+	"Configures.h"
+	<iostream>
+	<algorithm>
+
+1544723546 /home/joao/Projects/ufjf/PG - To Bit/PG/src/SimpleIndividuoBuilder.h
+	"IndividuoBuilder.h"
+	"SimpleIndividuo.h"
+
+1544723546 /home/joao/Projects/ufjf/PG - To Bit/PG/src/Mutation.h
+	"Subject.h"
+
+1544723546 /home/joao/Projects/ufjf/PG - To Bit/PG/src/SimpleMutation.h
+	"Mutation.h"
+
+1544723546 /home/joao/Projects/ufjf/PG - To Bit/PG/src/SimpleCrossover.h
+	"Crossover.h"
+
+1544723546 /home/joao/Projects/ufjf/PG - To Bit/PG/include/MultiSearch.h
+	"Subject.h"
+	"Grammar.h"
+	"Tree.h"
+	"Configures.h"
+	"Parser.h"
+	"SimpleParser.h"
+	<cmath>
+	<algorithm>
+	<exception>
+	<fstream>
+	"Selection.h"
+	"TournamentSelection.h"
+	"PopulationReplacement.h"
+	"SimpleReplace.h"
+	"IndividuoBuilder.h"
+	"SimpleIndividuoBuilder.h"
+	"DifferencialEvolution.h"
+	"EvolutionStrategie.h"
+	"Mutation.h"
+	"SimpleMutation.h"
+	"Crossover.h"
+	"SimpleCrossover.h"
+	<omp.h>
+
+1608061977 /home/joao/Projects/ufjf/PG - To Bit/PG/src/SimpleFunctionalEquationsParser.h
+	"Configures.h"
+	"Parser.h"
+	"SimpleIndividuo.h"
+	"DifferencialEvolution.h"
+	"EvolutionStrategie.h"
+	<vector>
+	<stack>
+	<tuple>
+	<cmath>
+
+1544723546 /home/joao/Projects/ufjf/PG - To Bit/PG/src/SimpleClassifierParser.h
+	"Configures.h"
+	"Parser.h"
+	"SimpleIndividuo.h"
+	"DifferencialEvolution.h"
+	"EvolutionStrategie.h"
+	<vector>
+	<stack>
+	<tuple>
+	<cmath>
+
+1626491774 source:/home/joao/Projects/ufjf/PG - To Bit/PG/src/MultiSearch.cpp
+	"MultiSearch.h"
+	<vector>
+
+1544723546 source:/home/joao/Projects/ufjf/PG - To Bit/PG/src/Mutation.cpp
+	"Mutation.h"
+
+1544723546 source:/home/joao/Projects/ufjf/PG - To Bit/PG/src/No.cpp
+	"No.h"
+	<iostream>
+	<string>
+
+1544723546 source:/home/joao/Projects/ufjf/PG - To Bit/PG/src/Parser.cpp
+
+1544723546 source:/home/joao/Projects/ufjf/PG - To Bit/PG/src/PopulationReplacement.cpp
+	"PopulationReplacement.h"
+
+1626730058 source:/home/joao/Projects/ufjf/PG - To Bit/PG/src/Search.cpp
+	"Search.h"
+	<vector>
+
+1544723546 source:/home/joao/Projects/ufjf/PG - To Bit/PG/src/Selection.cpp
+	"Selection.h"
+
+1620333492 source:/home/joao/Projects/ufjf/PG - To Bit/PG/src/SimpleClassifierParser.cpp
+	"SimpleClassifierParser.h"
+
+1544723546 source:/home/joao/Projects/ufjf/PG - To Bit/PG/src/SimpleCrossover.cpp
+	"SimpleCrossover.h"
+
+1608141126 source:/home/joao/Projects/ufjf/PG - To Bit/PG/src/SimpleFunctionalEquationsParser.cpp
+	"SimpleFunctionalEquationsParser.h"
+
+1544723546 source:/home/joao/Projects/ufjf/PG - To Bit/PG/src/SimpleIndividuo.cpp
+	"SimpleIndividuo.h"
+
+1544723546 source:/home/joao/Projects/ufjf/PG - To Bit/PG/src/SimpleIndividuoBuilder.cpp
+	"SimpleIndividuoBuilder.h"
+
+1544723546 source:/home/joao/Projects/ufjf/PG - To Bit/PG/src/SimpleMutation.cpp
+	"SimpleMutation.h"
+
+1626489105 source:/home/joao/Projects/ufjf/PG - To Bit/PG/src/SimpleParser.cpp
+	"SimpleParser.h"
+
+1592001851 source:/home/joao/Projects/ufjf/PG - To Bit/PG/src/SimpleReplace.cpp
+	"SimpleReplace.h"
+
+1544723546 source:/home/joao/Projects/ufjf/PG - To Bit/PG/src/Subject.cpp
+	"Subject.h"
+
+1544723546 source:/home/joao/Projects/ufjf/PG - To Bit/PG/src/TournamentSelection.cpp
+	"TournamentSelection.h"
+
+1544723546 source:/home/joao/Projects/ufjf/PG - To Bit/PG/src/Tree.cpp
+	"Tree.h"
+

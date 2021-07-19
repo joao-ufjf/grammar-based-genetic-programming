@@ -1,0 +1,64 @@
+O código tã uma bagunça, mas tá honesto.
+
+
+Coisas pra se atentar:
+
+1) main.cpp
+
+	O main.cpp é o mais importante, nele vc tem que se preocupar com algumas variáveis.
+	conf->MAXDEEP é a altura da árvore, onde muito pequena vc pode não ter espço de busca suficiente, mas muito grande vc não terã memória suficiente (confia).
+	conf->popSize é o tamanho da população e segue mesma lógida da altra da árvore (confia, vc vai ficar sem ram).
+	SimpleParser * parser = new SimpleParser(); é onde instancia os avaliadores, onde vc pode implementar seu próprio, vide os vários que existem. A ideia é que cada um tem que ser capaz de consumir uma lista de símbolos posfixados e resolver (maquina de turing). O simple resolve um bom conjunto de problemas já.
+	grammar->addConstant(-5); adiciona constantes na gramática quando vc tem o _c_ que é uma constante a ser ajustada. Mas se não tiver ajustada, ela é uma das constantes adicionadas.
+	Search* é monobjetivo e MultiSearch* multiobjetivo (-fit, -complexidade).
+	
+2) Search.cpp ou MultiSearch.cpp
+	
+	int maxEvaluations = 100000000; atualmente o critẽrio de parada é quantidade de avaliações de função objetivo, representado por essa variável.
+	
+3) SimpleParser.cpp
+
+	fit += pow(r - dataset[j][data->variables + arvore], 2); faz MSE, a linha acima é o MAE.
+	Operate(int opType, int opValue, double a, double b, double c) é a função que descreve tudo que essa máquina sabe consumir.
+	
+
+4) Saída
+	
+	A saída é a seguinte
+		it:6 n:0 fit:0.805832 size:15 model:x x * x 3 / + x 2 ^ -4 x * * -
+	Que mostra qual iteração estã, qual o ranking, o erro, o tamanho do modelo (nº de terminais) e o modelo posfixado.
+	O notebook Infix.ipynb tem a máquina que transforma em infixo, e no caso de regressão pode atẽ simplificar o modelo.
+	
+5) Infix.ipynb
+
+	Vc indica o modelo posfixo e ele transforma em infixo.
+	No caso de if-else, ele faz meio que em python.
+	
+6) problem_creator.ipynb
+	
+	Ele cria problemas pra vc, por mais incrível que pareça.
+	Vc escreve ele monta os dados numa malha bonitinha e tal, mais para fins didátivos.
+	
+Como usar:
+
+1) Parâmetros
+
+	19 input/continuous/grammar input/continuous/data input/continuous/groups 0 default_out.txt
+	19 = seed
+	input/continuous/grammar = arquivo com a GLC
+	input/continuous/data = arquivo com os dados
+	input/continuous/groups = arquivo com os grupos (treino, teste, validação)
+	0 = tipo de execução, que pode ser ou não com EE ou DE e as variações insternas de cada.
+	default_out.txt = arquivo que escreve as saídas de cada execução.
+	
+2) Padrões
+	
+	Os arquivos de gramática e dados em input/continuous estão no padrão, sõ seguir.
+	Lembrar que se a gramática não tiver usando os símbolos corretos, ela vai considerar como 1 e vai dar ruim. A mãquina vai processar e sempre retornar o topo da pilha, logo a GLC tem que estar escrita na mesma linguagem que a GLC consome.
+	Grammar.cpp tem os símbolos que podem ser usados.
+	conf.h tem algumas variáveis globais que vc pode querer mudar, não recomendo.
+	
+3) Bash
+
+	run.sh tem um exemplo de execução
+	

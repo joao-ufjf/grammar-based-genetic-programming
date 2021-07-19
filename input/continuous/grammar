@@ -1,0 +1,5 @@
+<expr> ::= <expr> <expr> <op> | <num> | <var>
+<op> ::= + | - | * | / | ^
+<uop> ::= log | exp | sqrt | sin | cos | tan | asin | acos | atan
+<var> ::= x | y
+<num> ::= -5 | -4 | -3 | -2 | -1 | 0 | 1 | 2 | 3 | 4 | 5
